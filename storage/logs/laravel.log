@@ -1,0 +1,522 @@
+[2022-11-13 11:16:19] local.ERROR: The "-a" option does not exist. {"exception":"[object] (Symfony\\Component\\Console\\Exception\\RuntimeException(code: 0): The \"-a\" option does not exist. at C:\\Users\\AliAmini\\Desktop\\programming\\laravel\\API\\todo\\vendor\\symfony\\console\\Input\\ArgvInput.php:122)
+[stacktrace]
+#0 C:\\Users\\AliAmini\\Desktop\\programming\\laravel\\API\\todo\\vendor\\symfony\\console\\Input\\ArgvInput.php(104): Symfony\\Component\\Console\\Input\\ArgvInput->parseShortOptionSet('api')
+#1 C:\\Users\\AliAmini\\Desktop\\programming\\laravel\\API\\todo\\vendor\\symfony\\console\\Input\\ArgvInput.php(84): Symfony\\Component\\Console\\Input\\ArgvInput->parseShortOption('-api')
+#2 C:\\Users\\AliAmini\\Desktop\\programming\\laravel\\API\\todo\\vendor\\symfony\\console\\Input\\ArgvInput.php(71): Symfony\\Component\\Console\\Input\\ArgvInput->parseToken('-api', true)
+#3 C:\\Users\\AliAmini\\Desktop\\programming\\laravel\\API\\todo\\vendor\\symfony\\console\\Input\\Input.php(55): Symfony\\Component\\Console\\Input\\ArgvInput->parse()
+#4 C:\\Users\\AliAmini\\Desktop\\programming\\laravel\\API\\todo\\vendor\\symfony\\console\\Command\\Command.php(267): Symfony\\Component\\Console\\Input\\Input->bind(Object(Symfony\\Component\\Console\\Input\\InputDefinition))
+#5 C:\\Users\\AliAmini\\Desktop\\programming\\laravel\\API\\todo\\vendor\\laravel\\framework\\src\\Illuminate\\Console\\Command.php(148): Symfony\\Component\\Console\\Command\\Command->run(Object(Symfony\\Component\\Console\\Input\\ArgvInput), Object(Illuminate\\Console\\OutputStyle))
+#6 C:\\Users\\AliAmini\\Desktop\\programming\\laravel\\API\\todo\\vendor\\symfony\\console\\Application.php(1014): Illuminate\\Console\\Command->run(Object(Symfony\\Component\\Console\\Input\\ArgvInput), Object(Symfony\\Component\\Console\\Output\\ConsoleOutput))
+#7 C:\\Users\\AliAmini\\Desktop\\programming\\laravel\\API\\todo\\vendor\\symfony\\console\\Application.php(301): Symfony\\Component\\Console\\Application->doRunCommand(Object(Illuminate\\Routing\\Console\\ControllerMakeCommand), Object(Symfony\\Component\\Console\\Input\\ArgvInput), Object(Symfony\\Component\\Console\\Output\\ConsoleOutput))
+#8 C:\\Users\\AliAmini\\Desktop\\programming\\laravel\\API\\todo\\vendor\\symfony\\console\\Application.php(171): Symfony\\Component\\Console\\Application->doRun(Object(Symfony\\Component\\Console\\Input\\ArgvInput), Object(Symfony\\Component\\Console\\Output\\ConsoleOutput))
+#9 C:\\Users\\AliAmini\\Desktop\\programming\\laravel\\API\\todo\\vendor\\laravel\\framework\\src\\Illuminate\\Console\\Application.php(111): Symfony\\Component\\Console\\Application->run(Object(Symfony\\Component\\Console\\Input\\ArgvInput), Object(Symfony\\Component\\Console\\Output\\ConsoleOutput))
+#10 C:\\Users\\AliAmini\\Desktop\\programming\\laravel\\API\\todo\\vendor\\laravel\\framework\\src\\Illuminate\\Foundation\\Console\\Kernel.php(155): Illuminate\\Console\\Application->run(Object(Symfony\\Component\\Console\\Input\\ArgvInput), Object(Symfony\\Component\\Console\\Output\\ConsoleOutput))
+#11 C:\\Users\\AliAmini\\Desktop\\programming\\laravel\\API\\todo\\artisan(37): Illuminate\\Foundation\\Console\\Kernel->handle(Object(Symfony\\Component\\Console\\Input\\ArgvInput), Object(Symfony\\Component\\Console\\Output\\ConsoleOutput))
+#12 {main}
+"} 
+[2022-11-13 11:16:56] local.ERROR: Command "make:todo" is not defined.
+
+Did you mean one of these?
+    make:cast
+    make:channel
+    make:command
+    make:component
+    make:controller
+    make:event
+    make:exception
+    make:factory
+    make:job
+    make:listener
+    make:mail
+    make:middleware
+    make:migration
+    make:model
+    make:notification
+    make:observer
+    make:policy
+    make:provider
+    make:request
+    make:resource
+    make:rule
+    make:scope
+    make:seeder
+    make:test {"exception":"[object] (Symfony\\Component\\Console\\Exception\\CommandNotFoundException(code: 0): Command \"make:todo\" is not defined.
+
+Did you mean one of these?
+    make:cast
+    make:channel
+    make:command
+    make:component
+    make:controller
+    make:event
+    make:exception
+    make:factory
+    make:job
+    make:listener
+    make:mail
+    make:middleware
+    make:migration
+    make:model
+    make:notification
+    make:observer
+    make:policy
+    make:provider
+    make:request
+    make:resource
+    make:rule
+    make:scope
+    make:seeder
+    make:test at C:\\Users\\AliAmini\\Desktop\\programming\\laravel\\API\\todo\\vendor\\symfony\\console\\Application.php:694)
+[stacktrace]
+#0 C:\\Users\\AliAmini\\Desktop\\programming\\laravel\\API\\todo\\vendor\\symfony\\console\\Application.php(259): Symfony\\Component\\Console\\Application->find('make:todo')
+#1 C:\\Users\\AliAmini\\Desktop\\programming\\laravel\\API\\todo\\vendor\\symfony\\console\\Application.php(171): Symfony\\Component\\Console\\Application->doRun(Object(Symfony\\Component\\Console\\Input\\ArgvInput), Object(Symfony\\Component\\Console\\Output\\ConsoleOutput))
+#2 C:\\Users\\AliAmini\\Desktop\\programming\\laravel\\API\\todo\\vendor\\laravel\\framework\\src\\Illuminate\\Console\\Application.php(111): Symfony\\Component\\Console\\Application->run(Object(Symfony\\Component\\Console\\Input\\ArgvInput), Object(Symfony\\Component\\Console\\Output\\ConsoleOutput))
+#3 C:\\Users\\AliAmini\\Desktop\\programming\\laravel\\API\\todo\\vendor\\laravel\\framework\\src\\Illuminate\\Foundation\\Console\\Kernel.php(155): Illuminate\\Console\\Application->run(Object(Symfony\\Component\\Console\\Input\\ArgvInput), Object(Symfony\\Component\\Console\\Output\\ConsoleOutput))
+#4 C:\\Users\\AliAmini\\Desktop\\programming\\laravel\\API\\todo\\artisan(37): Illuminate\\Foundation\\Console\\Kernel->handle(Object(Symfony\\Component\\Console\\Input\\ArgvInput), Object(Symfony\\Component\\Console\\Output\\ConsoleOutput))
+#5 {main}
+"} 
+[2022-11-13 11:32:34] local.ERROR: Command "db:fresh" is not defined.
+
+Did you mean one of these?
+    db
+    db:monitor
+    db:seed
+    db:show
+    db:table
+    db:wipe
+    migrate:fresh
+    migrate:refresh {"exception":"[object] (Symfony\\Component\\Console\\Exception\\CommandNotFoundException(code: 0): Command \"db:fresh\" is not defined.
+
+Did you mean one of these?
+    db
+    db:monitor
+    db:seed
+    db:show
+    db:table
+    db:wipe
+    migrate:fresh
+    migrate:refresh at C:\\Users\\AliAmini\\Desktop\\programming\\laravel\\API\\todo\\vendor\\symfony\\console\\Application.php:694)
+[stacktrace]
+#0 C:\\Users\\AliAmini\\Desktop\\programming\\laravel\\API\\todo\\vendor\\symfony\\console\\Application.php(259): Symfony\\Component\\Console\\Application->find('db:fresh')
+#1 C:\\Users\\AliAmini\\Desktop\\programming\\laravel\\API\\todo\\vendor\\symfony\\console\\Application.php(171): Symfony\\Component\\Console\\Application->doRun(Object(Symfony\\Component\\Console\\Input\\ArgvInput), Object(Symfony\\Component\\Console\\Output\\ConsoleOutput))
+#2 C:\\Users\\AliAmini\\Desktop\\programming\\laravel\\API\\todo\\vendor\\laravel\\framework\\src\\Illuminate\\Console\\Application.php(111): Symfony\\Component\\Console\\Application->run(Object(Symfony\\Component\\Console\\Input\\ArgvInput), Object(Symfony\\Component\\Console\\Output\\ConsoleOutput))
+#3 C:\\Users\\AliAmini\\Desktop\\programming\\laravel\\API\\todo\\vendor\\laravel\\framework\\src\\Illuminate\\Foundation\\Console\\Kernel.php(155): Illuminate\\Console\\Application->run(Object(Symfony\\Component\\Console\\Input\\ArgvInput), Object(Symfony\\Component\\Console\\Output\\ConsoleOutput))
+#4 C:\\Users\\AliAmini\\Desktop\\programming\\laravel\\API\\todo\\artisan(37): Illuminate\\Foundation\\Console\\Kernel->handle(Object(Symfony\\Component\\Console\\Input\\ArgvInput), Object(Symfony\\Component\\Console\\Output\\ConsoleOutput))
+#5 {main}
+"} 
+[2022-11-13 11:42:31] local.ERROR: SQLSTATE[42000]: Syntax error or access violation: 1064 You have an error in your SQL syntax; check the manual that corresponds to your MariaDB server version for the right syntax to use near 'select count(*) from todos as all_count from `todos`' at line 1 (SQL: select select count(*) from todos as all_count from `todos`) {"exception":"[object] (Illuminate\\Database\\QueryException(code: 42000): SQLSTATE[42000]: Syntax error or access violation: 1064 You have an error in your SQL syntax; check the manual that corresponds to your MariaDB server version for the right syntax to use near 'select count(*) from todos as all_count from `todos`' at line 1 (SQL: select select count(*) from todos as all_count from `todos`) at C:\\Users\\AliAmini\\Desktop\\programming\\laravel\\API\\todo\\vendor\\laravel\\framework\\src\\Illuminate\\Database\\Connection.php:760)
+[stacktrace]
+#0 C:\\Users\\AliAmini\\Desktop\\programming\\laravel\\API\\todo\\vendor\\laravel\\framework\\src\\Illuminate\\Database\\Connection.php(720): Illuminate\\Database\\Connection->runQueryCallback('select select c...', Array, Object(Closure))
+#1 C:\\Users\\AliAmini\\Desktop\\programming\\laravel\\API\\todo\\vendor\\laravel\\framework\\src\\Illuminate\\Database\\Connection.php(422): Illuminate\\Database\\Connection->run('select select c...', Array, Object(Closure))
+#2 C:\\Users\\AliAmini\\Desktop\\programming\\laravel\\API\\todo\\vendor\\laravel\\framework\\src\\Illuminate\\Database\\Query\\Builder.php(2650): Illuminate\\Database\\Connection->select('select select c...', Array, true)
+#3 C:\\Users\\AliAmini\\Desktop\\programming\\laravel\\API\\todo\\vendor\\laravel\\framework\\src\\Illuminate\\Database\\Query\\Builder.php(2638): Illuminate\\Database\\Query\\Builder->runSelect()
+#4 C:\\Users\\AliAmini\\Desktop\\programming\\laravel\\API\\todo\\vendor\\laravel\\framework\\src\\Illuminate\\Database\\Query\\Builder.php(3174): Illuminate\\Database\\Query\\Builder->Illuminate\\Database\\Query\\{closure}()
+#5 C:\\Users\\AliAmini\\Desktop\\programming\\laravel\\API\\todo\\vendor\\laravel\\framework\\src\\Illuminate\\Database\\Query\\Builder.php(2639): Illuminate\\Database\\Query\\Builder->onceWithColumns(Array, Object(Closure))
+#6 C:\\Users\\AliAmini\\Desktop\\programming\\laravel\\API\\todo\\vendor\\laravel\\framework\\src\\Illuminate\\Database\\Eloquent\\Builder.php(702): Illuminate\\Database\\Query\\Builder->get(Array)
+#7 C:\\Users\\AliAmini\\Desktop\\programming\\laravel\\API\\todo\\vendor\\laravel\\framework\\src\\Illuminate\\Database\\Eloquent\\Builder.php(686): Illuminate\\Database\\Eloquent\\Builder->getModels(Array)
+#8 C:\\Users\\AliAmini\\Desktop\\programming\\laravel\\API\\todo\\app\\Http\\Controllers\\TodoController.php(25): Illuminate\\Database\\Eloquent\\Builder->get()
+#9 C:\\Users\\AliAmini\\Desktop\\programming\\laravel\\API\\todo\\vendor\\laravel\\framework\\src\\Illuminate\\Routing\\Controller.php(54): App\\Http\\Controllers\\TodoController->index()
+#10 C:\\Users\\AliAmini\\Desktop\\programming\\laravel\\API\\todo\\vendor\\laravel\\framework\\src\\Illuminate\\Routing\\ControllerDispatcher.php(43): Illuminate\\Routing\\Controller->callAction('index', Array)
+#11 C:\\Users\\AliAmini\\Desktop\\programming\\laravel\\API\\todo\\vendor\\laravel\\framework\\src\\Illuminate\\Routing\\Route.php(260): Illuminate\\Routing\\ControllerDispatcher->dispatch(Object(Illuminate\\Routing\\Route), Object(App\\Http\\Controllers\\TodoController), 'index')
+#12 C:\\Users\\AliAmini\\Desktop\\programming\\laravel\\API\\todo\\vendor\\laravel\\framework\\src\\Illuminate\\Routing\\Route.php(205): Illuminate\\Routing\\Route->runController()
+#13 C:\\Users\\AliAmini\\Desktop\\programming\\laravel\\API\\todo\\vendor\\laravel\\framework\\src\\Illuminate\\Routing\\Router.php(727): Illuminate\\Routing\\Route->run()
+#14 C:\\Users\\AliAmini\\Desktop\\programming\\laravel\\API\\todo\\vendor\\laravel\\framework\\src\\Illuminate\\Pipeline\\Pipeline.php(141): Illuminate\\Routing\\Router->Illuminate\\Routing\\{closure}(Object(Illuminate\\Http\\Request))
+#15 C:\\Users\\AliAmini\\Desktop\\programming\\laravel\\API\\todo\\vendor\\laravel\\framework\\src\\Illuminate\\Routing\\Middleware\\SubstituteBindings.php(50): Illuminate\\Pipeline\\Pipeline->Illuminate\\Pipeline\\{closure}(Object(Illuminate\\Http\\Request))
+#16 C:\\Users\\AliAmini\\Desktop\\programming\\laravel\\API\\todo\\vendor\\laravel\\framework\\src\\Illuminate\\Pipeline\\Pipeline.php(180): Illuminate\\Routing\\Middleware\\SubstituteBindings->handle(Object(Illuminate\\Http\\Request), Object(Closure))
+#17 C:\\Users\\AliAmini\\Desktop\\programming\\laravel\\API\\todo\\vendor\\laravel\\framework\\src\\Illuminate\\Routing\\Middleware\\ThrottleRequests.php(126): Illuminate\\Pipeline\\Pipeline->Illuminate\\Pipeline\\{closure}(Object(Illuminate\\Http\\Request))
+#18 C:\\Users\\AliAmini\\Desktop\\programming\\laravel\\API\\todo\\vendor\\laravel\\framework\\src\\Illuminate\\Routing\\Middleware\\ThrottleRequests.php(102): Illuminate\\Routing\\Middleware\\ThrottleRequests->handleRequest(Object(Illuminate\\Http\\Request), Object(Closure), Array)
+#19 C:\\Users\\AliAmini\\Desktop\\programming\\laravel\\API\\todo\\vendor\\laravel\\framework\\src\\Illuminate\\Routing\\Middleware\\ThrottleRequests.php(54): Illuminate\\Routing\\Middleware\\ThrottleRequests->handleRequestUsingNamedLimiter(Object(Illuminate\\Http\\Request), Object(Closure), 'api', Object(Closure))
+#20 C:\\Users\\AliAmini\\Desktop\\programming\\laravel\\API\\todo\\vendor\\laravel\\framework\\src\\Illuminate\\Pipeline\\Pipeline.php(180): Illuminate\\Routing\\Middleware\\ThrottleRequests->handle(Object(Illuminate\\Http\\Request), Object(Closure), 'api')
+#21 C:\\Users\\AliAmini\\Desktop\\programming\\laravel\\API\\todo\\vendor\\laravel\\framework\\src\\Illuminate\\Pipeline\\Pipeline.php(116): Illuminate\\Pipeline\\Pipeline->Illuminate\\Pipeline\\{closure}(Object(Illuminate\\Http\\Request))
+#22 C:\\Users\\AliAmini\\Desktop\\programming\\laravel\\API\\todo\\vendor\\laravel\\framework\\src\\Illuminate\\Routing\\Router.php(728): Illuminate\\Pipeline\\Pipeline->then(Object(Closure))
+#23 C:\\Users\\AliAmini\\Desktop\\programming\\laravel\\API\\todo\\vendor\\laravel\\framework\\src\\Illuminate\\Routing\\Router.php(705): Illuminate\\Routing\\Router->runRouteWithinStack(Object(Illuminate\\Routing\\Route), Object(Illuminate\\Http\\Request))
+#24 C:\\Users\\AliAmini\\Desktop\\programming\\laravel\\API\\todo\\vendor\\laravel\\framework\\src\\Illuminate\\Routing\\Router.php(669): Illuminate\\Routing\\Router->runRoute(Object(Illuminate\\Http\\Request), Object(Illuminate\\Routing\\Route))
+#25 C:\\Users\\AliAmini\\Desktop\\programming\\laravel\\API\\todo\\vendor\\laravel\\framework\\src\\Illuminate\\Routing\\Router.php(658): Illuminate\\Routing\\Router->dispatchToRoute(Object(Illuminate\\Http\\Request))
+#26 C:\\Users\\AliAmini\\Desktop\\programming\\laravel\\API\\todo\\vendor\\laravel\\framework\\src\\Illuminate\\Foundation\\Http\\Kernel.php(190): Illuminate\\Routing\\Router->dispatch(Object(Illuminate\\Http\\Request))
+#27 C:\\Users\\AliAmini\\Desktop\\programming\\laravel\\API\\todo\\vendor\\laravel\\framework\\src\\Illuminate\\Pipeline\\Pipeline.php(141): Illuminate\\Foundation\\Http\\Kernel->Illuminate\\Foundation\\Http\\{closure}(Object(Illuminate\\Http\\Request))
+#28 C:\\Users\\AliAmini\\Desktop\\programming\\laravel\\API\\todo\\vendor\\laravel\\framework\\src\\Illuminate\\Foundation\\Http\\Middleware\\TransformsRequest.php(21): Illuminate\\Pipeline\\Pipeline->Illuminate\\Pipeline\\{closure}(Object(Illuminate\\Http\\Request))
+#29 C:\\Users\\AliAmini\\Desktop\\programming\\laravel\\API\\todo\\vendor\\laravel\\framework\\src\\Illuminate\\Foundation\\Http\\Middleware\\ConvertEmptyStringsToNull.php(31): Illuminate\\Foundation\\Http\\Middleware\\TransformsRequest->handle(Object(Illuminate\\Http\\Request), Object(Closure))
+#30 C:\\Users\\AliAmini\\Desktop\\programming\\laravel\\API\\todo\\vendor\\laravel\\framework\\src\\Illuminate\\Pipeline\\Pipeline.php(180): Illuminate\\Foundation\\Http\\Middleware\\ConvertEmptyStringsToNull->handle(Object(Illuminate\\Http\\Request), Object(Closure))
+#31 C:\\Users\\AliAmini\\Desktop\\programming\\laravel\\API\\todo\\vendor\\laravel\\framework\\src\\Illuminate\\Foundation\\Http\\Middleware\\TransformsRequest.php(21): Illuminate\\Pipeline\\Pipeline->Illuminate\\Pipeline\\{closure}(Object(Illuminate\\Http\\Request))
+#32 C:\\Users\\AliAmini\\Desktop\\programming\\laravel\\API\\todo\\vendor\\laravel\\framework\\src\\Illuminate\\Foundation\\Http\\Middleware\\TrimStrings.php(40): Illuminate\\Foundation\\Http\\Middleware\\TransformsRequest->handle(Object(Illuminate\\Http\\Request), Object(Closure))
+#33 C:\\Users\\AliAmini\\Desktop\\programming\\laravel\\API\\todo\\vendor\\laravel\\framework\\src\\Illuminate\\Pipeline\\Pipeline.php(180): Illuminate\\Foundation\\Http\\Middleware\\TrimStrings->handle(Object(Illuminate\\Http\\Request), Object(Closure))
+#34 C:\\Users\\AliAmini\\Desktop\\programming\\laravel\\API\\todo\\vendor\\laravel\\framework\\src\\Illuminate\\Foundation\\Http\\Middleware\\ValidatePostSize.php(27): Illuminate\\Pipeline\\Pipeline->Illuminate\\Pipeline\\{closure}(Object(Illuminate\\Http\\Request))
+#35 C:\\Users\\AliAmini\\Desktop\\programming\\laravel\\API\\todo\\vendor\\laravel\\framework\\src\\Illuminate\\Pipeline\\Pipeline.php(180): Illuminate\\Foundation\\Http\\Middleware\\ValidatePostSize->handle(Object(Illuminate\\Http\\Request), Object(Closure))
+#36 C:\\Users\\AliAmini\\Desktop\\programming\\laravel\\API\\todo\\vendor\\laravel\\framework\\src\\Illuminate\\Foundation\\Http\\Middleware\\PreventRequestsDuringMaintenance.php(86): Illuminate\\Pipeline\\Pipeline->Illuminate\\Pipeline\\{closure}(Object(Illuminate\\Http\\Request))
+#37 C:\\Users\\AliAmini\\Desktop\\programming\\laravel\\API\\todo\\vendor\\laravel\\framework\\src\\Illuminate\\Pipeline\\Pipeline.php(180): Illuminate\\Foundation\\Http\\Middleware\\PreventRequestsDuringMaintenance->handle(Object(Illuminate\\Http\\Request), Object(Closure))
+#38 C:\\Users\\AliAmini\\Desktop\\programming\\laravel\\API\\todo\\vendor\\laravel\\framework\\src\\Illuminate\\Http\\Middleware\\HandleCors.php(62): Illuminate\\Pipeline\\Pipeline->Illuminate\\Pipeline\\{closure}(Object(Illuminate\\Http\\Request))
+#39 C:\\Users\\AliAmini\\Desktop\\programming\\laravel\\API\\todo\\vendor\\laravel\\framework\\src\\Illuminate\\Pipeline\\Pipeline.php(180): Illuminate\\Http\\Middleware\\HandleCors->handle(Object(Illuminate\\Http\\Request), Object(Closure))
+#40 C:\\Users\\AliAmini\\Desktop\\programming\\laravel\\API\\todo\\vendor\\laravel\\framework\\src\\Illuminate\\Http\\Middleware\\TrustProxies.php(39): Illuminate\\Pipeline\\Pipeline->Illuminate\\Pipeline\\{closure}(Object(Illuminate\\Http\\Request))
+#41 C:\\Users\\AliAmini\\Desktop\\programming\\laravel\\API\\todo\\vendor\\laravel\\framework\\src\\Illuminate\\Pipeline\\Pipeline.php(180): Illuminate\\Http\\Middleware\\TrustProxies->handle(Object(Illuminate\\Http\\Request), Object(Closure))
+#42 C:\\Users\\AliAmini\\Desktop\\programming\\laravel\\API\\todo\\vendor\\laravel\\framework\\src\\Illuminate\\Pipeline\\Pipeline.php(116): Illuminate\\Pipeline\\Pipeline->Illuminate\\Pipeline\\{closure}(Object(Illuminate\\Http\\Request))
+#43 C:\\Users\\AliAmini\\Desktop\\programming\\laravel\\API\\todo\\vendor\\laravel\\framework\\src\\Illuminate\\Foundation\\Http\\Kernel.php(165): Illuminate\\Pipeline\\Pipeline->then(Object(Closure))
+#44 C:\\Users\\AliAmini\\Desktop\\programming\\laravel\\API\\todo\\vendor\\laravel\\framework\\src\\Illuminate\\Foundation\\Http\\Kernel.php(134): Illuminate\\Foundation\\Http\\Kernel->sendRequestThroughRouter(Object(Illuminate\\Http\\Request))
+#45 C:\\Users\\AliAmini\\Desktop\\programming\\laravel\\API\\todo\\public\\index.php(52): Illuminate\\Foundation\\Http\\Kernel->handle(Object(Illuminate\\Http\\Request))
+#46 C:\\Users\\AliAmini\\Desktop\\programming\\laravel\\API\\todo\\vendor\\laravel\\framework\\src\\Illuminate\\Foundation\\resources\\server.php(16): require_once('C:\\\\Users\\\\AliAmi...')
+#47 {main}
+
+[previous exception] [object] (PDOException(code: 42000): SQLSTATE[42000]: Syntax error or access violation: 1064 You have an error in your SQL syntax; check the manual that corresponds to your MariaDB server version for the right syntax to use near 'select count(*) from todos as all_count from `todos`' at line 1 at C:\\Users\\AliAmini\\Desktop\\programming\\laravel\\API\\todo\\vendor\\laravel\\framework\\src\\Illuminate\\Database\\Connection.php:414)
+[stacktrace]
+#0 C:\\Users\\AliAmini\\Desktop\\programming\\laravel\\API\\todo\\vendor\\laravel\\framework\\src\\Illuminate\\Database\\Connection.php(414): PDO->prepare('select select c...')
+#1 C:\\Users\\AliAmini\\Desktop\\programming\\laravel\\API\\todo\\vendor\\laravel\\framework\\src\\Illuminate\\Database\\Connection.php(753): Illuminate\\Database\\Connection->Illuminate\\Database\\{closure}('select select c...', Array)
+#2 C:\\Users\\AliAmini\\Desktop\\programming\\laravel\\API\\todo\\vendor\\laravel\\framework\\src\\Illuminate\\Database\\Connection.php(720): Illuminate\\Database\\Connection->runQueryCallback('select select c...', Array, Object(Closure))
+#3 C:\\Users\\AliAmini\\Desktop\\programming\\laravel\\API\\todo\\vendor\\laravel\\framework\\src\\Illuminate\\Database\\Connection.php(422): Illuminate\\Database\\Connection->run('select select c...', Array, Object(Closure))
+#4 C:\\Users\\AliAmini\\Desktop\\programming\\laravel\\API\\todo\\vendor\\laravel\\framework\\src\\Illuminate\\Database\\Query\\Builder.php(2650): Illuminate\\Database\\Connection->select('select select c...', Array, true)
+#5 C:\\Users\\AliAmini\\Desktop\\programming\\laravel\\API\\todo\\vendor\\laravel\\framework\\src\\Illuminate\\Database\\Query\\Builder.php(2638): Illuminate\\Database\\Query\\Builder->runSelect()
+#6 C:\\Users\\AliAmini\\Desktop\\programming\\laravel\\API\\todo\\vendor\\laravel\\framework\\src\\Illuminate\\Database\\Query\\Builder.php(3174): Illuminate\\Database\\Query\\Builder->Illuminate\\Database\\Query\\{closure}()
+#7 C:\\Users\\AliAmini\\Desktop\\programming\\laravel\\API\\todo\\vendor\\laravel\\framework\\src\\Illuminate\\Database\\Query\\Builder.php(2639): Illuminate\\Database\\Query\\Builder->onceWithColumns(Array, Object(Closure))
+#8 C:\\Users\\AliAmini\\Desktop\\programming\\laravel\\API\\todo\\vendor\\laravel\\framework\\src\\Illuminate\\Database\\Eloquent\\Builder.php(702): Illuminate\\Database\\Query\\Builder->get(Array)
+#9 C:\\Users\\AliAmini\\Desktop\\programming\\laravel\\API\\todo\\vendor\\laravel\\framework\\src\\Illuminate\\Database\\Eloquent\\Builder.php(686): Illuminate\\Database\\Eloquent\\Builder->getModels(Array)
+#10 C:\\Users\\AliAmini\\Desktop\\programming\\laravel\\API\\todo\\app\\Http\\Controllers\\TodoController.php(25): Illuminate\\Database\\Eloquent\\Builder->get()
+#11 C:\\Users\\AliAmini\\Desktop\\programming\\laravel\\API\\todo\\vendor\\laravel\\framework\\src\\Illuminate\\Routing\\Controller.php(54): App\\Http\\Controllers\\TodoController->index()
+#12 C:\\Users\\AliAmini\\Desktop\\programming\\laravel\\API\\todo\\vendor\\laravel\\framework\\src\\Illuminate\\Routing\\ControllerDispatcher.php(43): Illuminate\\Routing\\Controller->callAction('index', Array)
+#13 C:\\Users\\AliAmini\\Desktop\\programming\\laravel\\API\\todo\\vendor\\laravel\\framework\\src\\Illuminate\\Routing\\Route.php(260): Illuminate\\Routing\\ControllerDispatcher->dispatch(Object(Illuminate\\Routing\\Route), Object(App\\Http\\Controllers\\TodoController), 'index')
+#14 C:\\Users\\AliAmini\\Desktop\\programming\\laravel\\API\\todo\\vendor\\laravel\\framework\\src\\Illuminate\\Routing\\Route.php(205): Illuminate\\Routing\\Route->runController()
+#15 C:\\Users\\AliAmini\\Desktop\\programming\\laravel\\API\\todo\\vendor\\laravel\\framework\\src\\Illuminate\\Routing\\Router.php(727): Illuminate\\Routing\\Route->run()
+#16 C:\\Users\\AliAmini\\Desktop\\programming\\laravel\\API\\todo\\vendor\\laravel\\framework\\src\\Illuminate\\Pipeline\\Pipeline.php(141): Illuminate\\Routing\\Router->Illuminate\\Routing\\{closure}(Object(Illuminate\\Http\\Request))
+#17 C:\\Users\\AliAmini\\Desktop\\programming\\laravel\\API\\todo\\vendor\\laravel\\framework\\src\\Illuminate\\Routing\\Middleware\\SubstituteBindings.php(50): Illuminate\\Pipeline\\Pipeline->Illuminate\\Pipeline\\{closure}(Object(Illuminate\\Http\\Request))
+#18 C:\\Users\\AliAmini\\Desktop\\programming\\laravel\\API\\todo\\vendor\\laravel\\framework\\src\\Illuminate\\Pipeline\\Pipeline.php(180): Illuminate\\Routing\\Middleware\\SubstituteBindings->handle(Object(Illuminate\\Http\\Request), Object(Closure))
+#19 C:\\Users\\AliAmini\\Desktop\\programming\\laravel\\API\\todo\\vendor\\laravel\\framework\\src\\Illuminate\\Routing\\Middleware\\ThrottleRequests.php(126): Illuminate\\Pipeline\\Pipeline->Illuminate\\Pipeline\\{closure}(Object(Illuminate\\Http\\Request))
+#20 C:\\Users\\AliAmini\\Desktop\\programming\\laravel\\API\\todo\\vendor\\laravel\\framework\\src\\Illuminate\\Routing\\Middleware\\ThrottleRequests.php(102): Illuminate\\Routing\\Middleware\\ThrottleRequests->handleRequest(Object(Illuminate\\Http\\Request), Object(Closure), Array)
+#21 C:\\Users\\AliAmini\\Desktop\\programming\\laravel\\API\\todo\\vendor\\laravel\\framework\\src\\Illuminate\\Routing\\Middleware\\ThrottleRequests.php(54): Illuminate\\Routing\\Middleware\\ThrottleRequests->handleRequestUsingNamedLimiter(Object(Illuminate\\Http\\Request), Object(Closure), 'api', Object(Closure))
+#22 C:\\Users\\AliAmini\\Desktop\\programming\\laravel\\API\\todo\\vendor\\laravel\\framework\\src\\Illuminate\\Pipeline\\Pipeline.php(180): Illuminate\\Routing\\Middleware\\ThrottleRequests->handle(Object(Illuminate\\Http\\Request), Object(Closure), 'api')
+#23 C:\\Users\\AliAmini\\Desktop\\programming\\laravel\\API\\todo\\vendor\\laravel\\framework\\src\\Illuminate\\Pipeline\\Pipeline.php(116): Illuminate\\Pipeline\\Pipeline->Illuminate\\Pipeline\\{closure}(Object(Illuminate\\Http\\Request))
+#24 C:\\Users\\AliAmini\\Desktop\\programming\\laravel\\API\\todo\\vendor\\laravel\\framework\\src\\Illuminate\\Routing\\Router.php(728): Illuminate\\Pipeline\\Pipeline->then(Object(Closure))
+#25 C:\\Users\\AliAmini\\Desktop\\programming\\laravel\\API\\todo\\vendor\\laravel\\framework\\src\\Illuminate\\Routing\\Router.php(705): Illuminate\\Routing\\Router->runRouteWithinStack(Object(Illuminate\\Routing\\Route), Object(Illuminate\\Http\\Request))
+#26 C:\\Users\\AliAmini\\Desktop\\programming\\laravel\\API\\todo\\vendor\\laravel\\framework\\src\\Illuminate\\Routing\\Router.php(669): Illuminate\\Routing\\Router->runRoute(Object(Illuminate\\Http\\Request), Object(Illuminate\\Routing\\Route))
+#27 C:\\Users\\AliAmini\\Desktop\\programming\\laravel\\API\\todo\\vendor\\laravel\\framework\\src\\Illuminate\\Routing\\Router.php(658): Illuminate\\Routing\\Router->dispatchToRoute(Object(Illuminate\\Http\\Request))
+#28 C:\\Users\\AliAmini\\Desktop\\programming\\laravel\\API\\todo\\vendor\\laravel\\framework\\src\\Illuminate\\Foundation\\Http\\Kernel.php(190): Illuminate\\Routing\\Router->dispatch(Object(Illuminate\\Http\\Request))
+#29 C:\\Users\\AliAmini\\Desktop\\programming\\laravel\\API\\todo\\vendor\\laravel\\framework\\src\\Illuminate\\Pipeline\\Pipeline.php(141): Illuminate\\Foundation\\Http\\Kernel->Illuminate\\Foundation\\Http\\{closure}(Object(Illuminate\\Http\\Request))
+#30 C:\\Users\\AliAmini\\Desktop\\programming\\laravel\\API\\todo\\vendor\\laravel\\framework\\src\\Illuminate\\Foundation\\Http\\Middleware\\TransformsRequest.php(21): Illuminate\\Pipeline\\Pipeline->Illuminate\\Pipeline\\{closure}(Object(Illuminate\\Http\\Request))
+#31 C:\\Users\\AliAmini\\Desktop\\programming\\laravel\\API\\todo\\vendor\\laravel\\framework\\src\\Illuminate\\Foundation\\Http\\Middleware\\ConvertEmptyStringsToNull.php(31): Illuminate\\Foundation\\Http\\Middleware\\TransformsRequest->handle(Object(Illuminate\\Http\\Request), Object(Closure))
+#32 C:\\Users\\AliAmini\\Desktop\\programming\\laravel\\API\\todo\\vendor\\laravel\\framework\\src\\Illuminate\\Pipeline\\Pipeline.php(180): Illuminate\\Foundation\\Http\\Middleware\\ConvertEmptyStringsToNull->handle(Object(Illuminate\\Http\\Request), Object(Closure))
+#33 C:\\Users\\AliAmini\\Desktop\\programming\\laravel\\API\\todo\\vendor\\laravel\\framework\\src\\Illuminate\\Foundation\\Http\\Middleware\\TransformsRequest.php(21): Illuminate\\Pipeline\\Pipeline->Illuminate\\Pipeline\\{closure}(Object(Illuminate\\Http\\Request))
+#34 C:\\Users\\AliAmini\\Desktop\\programming\\laravel\\API\\todo\\vendor\\laravel\\framework\\src\\Illuminate\\Foundation\\Http\\Middleware\\TrimStrings.php(40): Illuminate\\Foundation\\Http\\Middleware\\TransformsRequest->handle(Object(Illuminate\\Http\\Request), Object(Closure))
+#35 C:\\Users\\AliAmini\\Desktop\\programming\\laravel\\API\\todo\\vendor\\laravel\\framework\\src\\Illuminate\\Pipeline\\Pipeline.php(180): Illuminate\\Foundation\\Http\\Middleware\\TrimStrings->handle(Object(Illuminate\\Http\\Request), Object(Closure))
+#36 C:\\Users\\AliAmini\\Desktop\\programming\\laravel\\API\\todo\\vendor\\laravel\\framework\\src\\Illuminate\\Foundation\\Http\\Middleware\\ValidatePostSize.php(27): Illuminate\\Pipeline\\Pipeline->Illuminate\\Pipeline\\{closure}(Object(Illuminate\\Http\\Request))
+#37 C:\\Users\\AliAmini\\Desktop\\programming\\laravel\\API\\todo\\vendor\\laravel\\framework\\src\\Illuminate\\Pipeline\\Pipeline.php(180): Illuminate\\Foundation\\Http\\Middleware\\ValidatePostSize->handle(Object(Illuminate\\Http\\Request), Object(Closure))
+#38 C:\\Users\\AliAmini\\Desktop\\programming\\laravel\\API\\todo\\vendor\\laravel\\framework\\src\\Illuminate\\Foundation\\Http\\Middleware\\PreventRequestsDuringMaintenance.php(86): Illuminate\\Pipeline\\Pipeline->Illuminate\\Pipeline\\{closure}(Object(Illuminate\\Http\\Request))
+#39 C:\\Users\\AliAmini\\Desktop\\programming\\laravel\\API\\todo\\vendor\\laravel\\framework\\src\\Illuminate\\Pipeline\\Pipeline.php(180): Illuminate\\Foundation\\Http\\Middleware\\PreventRequestsDuringMaintenance->handle(Object(Illuminate\\Http\\Request), Object(Closure))
+#40 C:\\Users\\AliAmini\\Desktop\\programming\\laravel\\API\\todo\\vendor\\laravel\\framework\\src\\Illuminate\\Http\\Middleware\\HandleCors.php(62): Illuminate\\Pipeline\\Pipeline->Illuminate\\Pipeline\\{closure}(Object(Illuminate\\Http\\Request))
+#41 C:\\Users\\AliAmini\\Desktop\\programming\\laravel\\API\\todo\\vendor\\laravel\\framework\\src\\Illuminate\\Pipeline\\Pipeline.php(180): Illuminate\\Http\\Middleware\\HandleCors->handle(Object(Illuminate\\Http\\Request), Object(Closure))
+#42 C:\\Users\\AliAmini\\Desktop\\programming\\laravel\\API\\todo\\vendor\\laravel\\framework\\src\\Illuminate\\Http\\Middleware\\TrustProxies.php(39): Illuminate\\Pipeline\\Pipeline->Illuminate\\Pipeline\\{closure}(Object(Illuminate\\Http\\Request))
+#43 C:\\Users\\AliAmini\\Desktop\\programming\\laravel\\API\\todo\\vendor\\laravel\\framework\\src\\Illuminate\\Pipeline\\Pipeline.php(180): Illuminate\\Http\\Middleware\\TrustProxies->handle(Object(Illuminate\\Http\\Request), Object(Closure))
+#44 C:\\Users\\AliAmini\\Desktop\\programming\\laravel\\API\\todo\\vendor\\laravel\\framework\\src\\Illuminate\\Pipeline\\Pipeline.php(116): Illuminate\\Pipeline\\Pipeline->Illuminate\\Pipeline\\{closure}(Object(Illuminate\\Http\\Request))
+#45 C:\\Users\\AliAmini\\Desktop\\programming\\laravel\\API\\todo\\vendor\\laravel\\framework\\src\\Illuminate\\Foundation\\Http\\Kernel.php(165): Illuminate\\Pipeline\\Pipeline->then(Object(Closure))
+#46 C:\\Users\\AliAmini\\Desktop\\programming\\laravel\\API\\todo\\vendor\\laravel\\framework\\src\\Illuminate\\Foundation\\Http\\Kernel.php(134): Illuminate\\Foundation\\Http\\Kernel->sendRequestThroughRouter(Object(Illuminate\\Http\\Request))
+#47 C:\\Users\\AliAmini\\Desktop\\programming\\laravel\\API\\todo\\public\\index.php(52): Illuminate\\Foundation\\Http\\Kernel->handle(Object(Illuminate\\Http\\Request))
+#48 C:\\Users\\AliAmini\\Desktop\\programming\\laravel\\API\\todo\\vendor\\laravel\\framework\\src\\Illuminate\\Foundation\\resources\\server.php(16): require_once('C:\\\\Users\\\\AliAmi...')
+#49 {main}
+"} 
+[2022-11-13 11:42:46] local.ERROR: SQLSTATE[42000]: Syntax error or access violation: 1064 You have an error in your SQL syntax; check the manual that corresponds to your MariaDB server version for the right syntax to use near 'select count(*) from todos as all_count from `todos`' at line 1 (SQL: select select count(*) from todos as all_count from `todos`) {"exception":"[object] (Illuminate\\Database\\QueryException(code: 42000): SQLSTATE[42000]: Syntax error or access violation: 1064 You have an error in your SQL syntax; check the manual that corresponds to your MariaDB server version for the right syntax to use near 'select count(*) from todos as all_count from `todos`' at line 1 (SQL: select select count(*) from todos as all_count from `todos`) at C:\\Users\\AliAmini\\Desktop\\programming\\laravel\\API\\todo\\vendor\\laravel\\framework\\src\\Illuminate\\Database\\Connection.php:760)
+[stacktrace]
+#0 C:\\Users\\AliAmini\\Desktop\\programming\\laravel\\API\\todo\\vendor\\laravel\\framework\\src\\Illuminate\\Database\\Connection.php(720): Illuminate\\Database\\Connection->runQueryCallback('select select c...', Array, Object(Closure))
+#1 C:\\Users\\AliAmini\\Desktop\\programming\\laravel\\API\\todo\\vendor\\laravel\\framework\\src\\Illuminate\\Database\\Connection.php(422): Illuminate\\Database\\Connection->run('select select c...', Array, Object(Closure))
+#2 C:\\Users\\AliAmini\\Desktop\\programming\\laravel\\API\\todo\\vendor\\laravel\\framework\\src\\Illuminate\\Database\\Query\\Builder.php(2650): Illuminate\\Database\\Connection->select('select select c...', Array, true)
+#3 C:\\Users\\AliAmini\\Desktop\\programming\\laravel\\API\\todo\\vendor\\laravel\\framework\\src\\Illuminate\\Database\\Query\\Builder.php(2638): Illuminate\\Database\\Query\\Builder->runSelect()
+#4 C:\\Users\\AliAmini\\Desktop\\programming\\laravel\\API\\todo\\vendor\\laravel\\framework\\src\\Illuminate\\Database\\Query\\Builder.php(3174): Illuminate\\Database\\Query\\Builder->Illuminate\\Database\\Query\\{closure}()
+#5 C:\\Users\\AliAmini\\Desktop\\programming\\laravel\\API\\todo\\vendor\\laravel\\framework\\src\\Illuminate\\Database\\Query\\Builder.php(2639): Illuminate\\Database\\Query\\Builder->onceWithColumns(Array, Object(Closure))
+#6 C:\\Users\\AliAmini\\Desktop\\programming\\laravel\\API\\todo\\vendor\\laravel\\framework\\src\\Illuminate\\Database\\Eloquent\\Builder.php(702): Illuminate\\Database\\Query\\Builder->get(Array)
+#7 C:\\Users\\AliAmini\\Desktop\\programming\\laravel\\API\\todo\\vendor\\laravel\\framework\\src\\Illuminate\\Database\\Eloquent\\Builder.php(686): Illuminate\\Database\\Eloquent\\Builder->getModels(Array)
+#8 C:\\Users\\AliAmini\\Desktop\\programming\\laravel\\API\\todo\\app\\Http\\Controllers\\TodoController.php(25): Illuminate\\Database\\Eloquent\\Builder->get()
+#9 C:\\Users\\AliAmini\\Desktop\\programming\\laravel\\API\\todo\\vendor\\laravel\\framework\\src\\Illuminate\\Routing\\Controller.php(54): App\\Http\\Controllers\\TodoController->index()
+#10 C:\\Users\\AliAmini\\Desktop\\programming\\laravel\\API\\todo\\vendor\\laravel\\framework\\src\\Illuminate\\Routing\\ControllerDispatcher.php(43): Illuminate\\Routing\\Controller->callAction('index', Array)
+#11 C:\\Users\\AliAmini\\Desktop\\programming\\laravel\\API\\todo\\vendor\\laravel\\framework\\src\\Illuminate\\Routing\\Route.php(260): Illuminate\\Routing\\ControllerDispatcher->dispatch(Object(Illuminate\\Routing\\Route), Object(App\\Http\\Controllers\\TodoController), 'index')
+#12 C:\\Users\\AliAmini\\Desktop\\programming\\laravel\\API\\todo\\vendor\\laravel\\framework\\src\\Illuminate\\Routing\\Route.php(205): Illuminate\\Routing\\Route->runController()
+#13 C:\\Users\\AliAmini\\Desktop\\programming\\laravel\\API\\todo\\vendor\\laravel\\framework\\src\\Illuminate\\Routing\\Router.php(727): Illuminate\\Routing\\Route->run()
+#14 C:\\Users\\AliAmini\\Desktop\\programming\\laravel\\API\\todo\\vendor\\laravel\\framework\\src\\Illuminate\\Pipeline\\Pipeline.php(141): Illuminate\\Routing\\Router->Illuminate\\Routing\\{closure}(Object(Illuminate\\Http\\Request))
+#15 C:\\Users\\AliAmini\\Desktop\\programming\\laravel\\API\\todo\\vendor\\laravel\\framework\\src\\Illuminate\\Routing\\Middleware\\SubstituteBindings.php(50): Illuminate\\Pipeline\\Pipeline->Illuminate\\Pipeline\\{closure}(Object(Illuminate\\Http\\Request))
+#16 C:\\Users\\AliAmini\\Desktop\\programming\\laravel\\API\\todo\\vendor\\laravel\\framework\\src\\Illuminate\\Pipeline\\Pipeline.php(180): Illuminate\\Routing\\Middleware\\SubstituteBindings->handle(Object(Illuminate\\Http\\Request), Object(Closure))
+#17 C:\\Users\\AliAmini\\Desktop\\programming\\laravel\\API\\todo\\vendor\\laravel\\framework\\src\\Illuminate\\Routing\\Middleware\\ThrottleRequests.php(126): Illuminate\\Pipeline\\Pipeline->Illuminate\\Pipeline\\{closure}(Object(Illuminate\\Http\\Request))
+#18 C:\\Users\\AliAmini\\Desktop\\programming\\laravel\\API\\todo\\vendor\\laravel\\framework\\src\\Illuminate\\Routing\\Middleware\\ThrottleRequests.php(102): Illuminate\\Routing\\Middleware\\ThrottleRequests->handleRequest(Object(Illuminate\\Http\\Request), Object(Closure), Array)
+#19 C:\\Users\\AliAmini\\Desktop\\programming\\laravel\\API\\todo\\vendor\\laravel\\framework\\src\\Illuminate\\Routing\\Middleware\\ThrottleRequests.php(54): Illuminate\\Routing\\Middleware\\ThrottleRequests->handleRequestUsingNamedLimiter(Object(Illuminate\\Http\\Request), Object(Closure), 'api', Object(Closure))
+#20 C:\\Users\\AliAmini\\Desktop\\programming\\laravel\\API\\todo\\vendor\\laravel\\framework\\src\\Illuminate\\Pipeline\\Pipeline.php(180): Illuminate\\Routing\\Middleware\\ThrottleRequests->handle(Object(Illuminate\\Http\\Request), Object(Closure), 'api')
+#21 C:\\Users\\AliAmini\\Desktop\\programming\\laravel\\API\\todo\\vendor\\laravel\\framework\\src\\Illuminate\\Pipeline\\Pipeline.php(116): Illuminate\\Pipeline\\Pipeline->Illuminate\\Pipeline\\{closure}(Object(Illuminate\\Http\\Request))
+#22 C:\\Users\\AliAmini\\Desktop\\programming\\laravel\\API\\todo\\vendor\\laravel\\framework\\src\\Illuminate\\Routing\\Router.php(728): Illuminate\\Pipeline\\Pipeline->then(Object(Closure))
+#23 C:\\Users\\AliAmini\\Desktop\\programming\\laravel\\API\\todo\\vendor\\laravel\\framework\\src\\Illuminate\\Routing\\Router.php(705): Illuminate\\Routing\\Router->runRouteWithinStack(Object(Illuminate\\Routing\\Route), Object(Illuminate\\Http\\Request))
+#24 C:\\Users\\AliAmini\\Desktop\\programming\\laravel\\API\\todo\\vendor\\laravel\\framework\\src\\Illuminate\\Routing\\Router.php(669): Illuminate\\Routing\\Router->runRoute(Object(Illuminate\\Http\\Request), Object(Illuminate\\Routing\\Route))
+#25 C:\\Users\\AliAmini\\Desktop\\programming\\laravel\\API\\todo\\vendor\\laravel\\framework\\src\\Illuminate\\Routing\\Router.php(658): Illuminate\\Routing\\Router->dispatchToRoute(Object(Illuminate\\Http\\Request))
+#26 C:\\Users\\AliAmini\\Desktop\\programming\\laravel\\API\\todo\\vendor\\laravel\\framework\\src\\Illuminate\\Foundation\\Http\\Kernel.php(190): Illuminate\\Routing\\Router->dispatch(Object(Illuminate\\Http\\Request))
+#27 C:\\Users\\AliAmini\\Desktop\\programming\\laravel\\API\\todo\\vendor\\laravel\\framework\\src\\Illuminate\\Pipeline\\Pipeline.php(141): Illuminate\\Foundation\\Http\\Kernel->Illuminate\\Foundation\\Http\\{closure}(Object(Illuminate\\Http\\Request))
+#28 C:\\Users\\AliAmini\\Desktop\\programming\\laravel\\API\\todo\\vendor\\laravel\\framework\\src\\Illuminate\\Foundation\\Http\\Middleware\\TransformsRequest.php(21): Illuminate\\Pipeline\\Pipeline->Illuminate\\Pipeline\\{closure}(Object(Illuminate\\Http\\Request))
+#29 C:\\Users\\AliAmini\\Desktop\\programming\\laravel\\API\\todo\\vendor\\laravel\\framework\\src\\Illuminate\\Foundation\\Http\\Middleware\\ConvertEmptyStringsToNull.php(31): Illuminate\\Foundation\\Http\\Middleware\\TransformsRequest->handle(Object(Illuminate\\Http\\Request), Object(Closure))
+#30 C:\\Users\\AliAmini\\Desktop\\programming\\laravel\\API\\todo\\vendor\\laravel\\framework\\src\\Illuminate\\Pipeline\\Pipeline.php(180): Illuminate\\Foundation\\Http\\Middleware\\ConvertEmptyStringsToNull->handle(Object(Illuminate\\Http\\Request), Object(Closure))
+#31 C:\\Users\\AliAmini\\Desktop\\programming\\laravel\\API\\todo\\vendor\\laravel\\framework\\src\\Illuminate\\Foundation\\Http\\Middleware\\TransformsRequest.php(21): Illuminate\\Pipeline\\Pipeline->Illuminate\\Pipeline\\{closure}(Object(Illuminate\\Http\\Request))
+#32 C:\\Users\\AliAmini\\Desktop\\programming\\laravel\\API\\todo\\vendor\\laravel\\framework\\src\\Illuminate\\Foundation\\Http\\Middleware\\TrimStrings.php(40): Illuminate\\Foundation\\Http\\Middleware\\TransformsRequest->handle(Object(Illuminate\\Http\\Request), Object(Closure))
+#33 C:\\Users\\AliAmini\\Desktop\\programming\\laravel\\API\\todo\\vendor\\laravel\\framework\\src\\Illuminate\\Pipeline\\Pipeline.php(180): Illuminate\\Foundation\\Http\\Middleware\\TrimStrings->handle(Object(Illuminate\\Http\\Request), Object(Closure))
+#34 C:\\Users\\AliAmini\\Desktop\\programming\\laravel\\API\\todo\\vendor\\laravel\\framework\\src\\Illuminate\\Foundation\\Http\\Middleware\\ValidatePostSize.php(27): Illuminate\\Pipeline\\Pipeline->Illuminate\\Pipeline\\{closure}(Object(Illuminate\\Http\\Request))
+#35 C:\\Users\\AliAmini\\Desktop\\programming\\laravel\\API\\todo\\vendor\\laravel\\framework\\src\\Illuminate\\Pipeline\\Pipeline.php(180): Illuminate\\Foundation\\Http\\Middleware\\ValidatePostSize->handle(Object(Illuminate\\Http\\Request), Object(Closure))
+#36 C:\\Users\\AliAmini\\Desktop\\programming\\laravel\\API\\todo\\vendor\\laravel\\framework\\src\\Illuminate\\Foundation\\Http\\Middleware\\PreventRequestsDuringMaintenance.php(86): Illuminate\\Pipeline\\Pipeline->Illuminate\\Pipeline\\{closure}(Object(Illuminate\\Http\\Request))
+#37 C:\\Users\\AliAmini\\Desktop\\programming\\laravel\\API\\todo\\vendor\\laravel\\framework\\src\\Illuminate\\Pipeline\\Pipeline.php(180): Illuminate\\Foundation\\Http\\Middleware\\PreventRequestsDuringMaintenance->handle(Object(Illuminate\\Http\\Request), Object(Closure))
+#38 C:\\Users\\AliAmini\\Desktop\\programming\\laravel\\API\\todo\\vendor\\laravel\\framework\\src\\Illuminate\\Http\\Middleware\\HandleCors.php(62): Illuminate\\Pipeline\\Pipeline->Illuminate\\Pipeline\\{closure}(Object(Illuminate\\Http\\Request))
+#39 C:\\Users\\AliAmini\\Desktop\\programming\\laravel\\API\\todo\\vendor\\laravel\\framework\\src\\Illuminate\\Pipeline\\Pipeline.php(180): Illuminate\\Http\\Middleware\\HandleCors->handle(Object(Illuminate\\Http\\Request), Object(Closure))
+#40 C:\\Users\\AliAmini\\Desktop\\programming\\laravel\\API\\todo\\vendor\\laravel\\framework\\src\\Illuminate\\Http\\Middleware\\TrustProxies.php(39): Illuminate\\Pipeline\\Pipeline->Illuminate\\Pipeline\\{closure}(Object(Illuminate\\Http\\Request))
+#41 C:\\Users\\AliAmini\\Desktop\\programming\\laravel\\API\\todo\\vendor\\laravel\\framework\\src\\Illuminate\\Pipeline\\Pipeline.php(180): Illuminate\\Http\\Middleware\\TrustProxies->handle(Object(Illuminate\\Http\\Request), Object(Closure))
+#42 C:\\Users\\AliAmini\\Desktop\\programming\\laravel\\API\\todo\\vendor\\laravel\\framework\\src\\Illuminate\\Pipeline\\Pipeline.php(116): Illuminate\\Pipeline\\Pipeline->Illuminate\\Pipeline\\{closure}(Object(Illuminate\\Http\\Request))
+#43 C:\\Users\\AliAmini\\Desktop\\programming\\laravel\\API\\todo\\vendor\\laravel\\framework\\src\\Illuminate\\Foundation\\Http\\Kernel.php(165): Illuminate\\Pipeline\\Pipeline->then(Object(Closure))
+#44 C:\\Users\\AliAmini\\Desktop\\programming\\laravel\\API\\todo\\vendor\\laravel\\framework\\src\\Illuminate\\Foundation\\Http\\Kernel.php(134): Illuminate\\Foundation\\Http\\Kernel->sendRequestThroughRouter(Object(Illuminate\\Http\\Request))
+#45 C:\\Users\\AliAmini\\Desktop\\programming\\laravel\\API\\todo\\public\\index.php(52): Illuminate\\Foundation\\Http\\Kernel->handle(Object(Illuminate\\Http\\Request))
+#46 C:\\Users\\AliAmini\\Desktop\\programming\\laravel\\API\\todo\\vendor\\laravel\\framework\\src\\Illuminate\\Foundation\\resources\\server.php(16): require_once('C:\\\\Users\\\\AliAmi...')
+#47 {main}
+
+[previous exception] [object] (PDOException(code: 42000): SQLSTATE[42000]: Syntax error or access violation: 1064 You have an error in your SQL syntax; check the manual that corresponds to your MariaDB server version for the right syntax to use near 'select count(*) from todos as all_count from `todos`' at line 1 at C:\\Users\\AliAmini\\Desktop\\programming\\laravel\\API\\todo\\vendor\\laravel\\framework\\src\\Illuminate\\Database\\Connection.php:414)
+[stacktrace]
+#0 C:\\Users\\AliAmini\\Desktop\\programming\\laravel\\API\\todo\\vendor\\laravel\\framework\\src\\Illuminate\\Database\\Connection.php(414): PDO->prepare('select select c...')
+#1 C:\\Users\\AliAmini\\Desktop\\programming\\laravel\\API\\todo\\vendor\\laravel\\framework\\src\\Illuminate\\Database\\Connection.php(753): Illuminate\\Database\\Connection->Illuminate\\Database\\{closure}('select select c...', Array)
+#2 C:\\Users\\AliAmini\\Desktop\\programming\\laravel\\API\\todo\\vendor\\laravel\\framework\\src\\Illuminate\\Database\\Connection.php(720): Illuminate\\Database\\Connection->runQueryCallback('select select c...', Array, Object(Closure))
+#3 C:\\Users\\AliAmini\\Desktop\\programming\\laravel\\API\\todo\\vendor\\laravel\\framework\\src\\Illuminate\\Database\\Connection.php(422): Illuminate\\Database\\Connection->run('select select c...', Array, Object(Closure))
+#4 C:\\Users\\AliAmini\\Desktop\\programming\\laravel\\API\\todo\\vendor\\laravel\\framework\\src\\Illuminate\\Database\\Query\\Builder.php(2650): Illuminate\\Database\\Connection->select('select select c...', Array, true)
+#5 C:\\Users\\AliAmini\\Desktop\\programming\\laravel\\API\\todo\\vendor\\laravel\\framework\\src\\Illuminate\\Database\\Query\\Builder.php(2638): Illuminate\\Database\\Query\\Builder->runSelect()
+#6 C:\\Users\\AliAmini\\Desktop\\programming\\laravel\\API\\todo\\vendor\\laravel\\framework\\src\\Illuminate\\Database\\Query\\Builder.php(3174): Illuminate\\Database\\Query\\Builder->Illuminate\\Database\\Query\\{closure}()
+#7 C:\\Users\\AliAmini\\Desktop\\programming\\laravel\\API\\todo\\vendor\\laravel\\framework\\src\\Illuminate\\Database\\Query\\Builder.php(2639): Illuminate\\Database\\Query\\Builder->onceWithColumns(Array, Object(Closure))
+#8 C:\\Users\\AliAmini\\Desktop\\programming\\laravel\\API\\todo\\vendor\\laravel\\framework\\src\\Illuminate\\Database\\Eloquent\\Builder.php(702): Illuminate\\Database\\Query\\Builder->get(Array)
+#9 C:\\Users\\AliAmini\\Desktop\\programming\\laravel\\API\\todo\\vendor\\laravel\\framework\\src\\Illuminate\\Database\\Eloquent\\Builder.php(686): Illuminate\\Database\\Eloquent\\Builder->getModels(Array)
+#10 C:\\Users\\AliAmini\\Desktop\\programming\\laravel\\API\\todo\\app\\Http\\Controllers\\TodoController.php(25): Illuminate\\Database\\Eloquent\\Builder->get()
+#11 C:\\Users\\AliAmini\\Desktop\\programming\\laravel\\API\\todo\\vendor\\laravel\\framework\\src\\Illuminate\\Routing\\Controller.php(54): App\\Http\\Controllers\\TodoController->index()
+#12 C:\\Users\\AliAmini\\Desktop\\programming\\laravel\\API\\todo\\vendor\\laravel\\framework\\src\\Illuminate\\Routing\\ControllerDispatcher.php(43): Illuminate\\Routing\\Controller->callAction('index', Array)
+#13 C:\\Users\\AliAmini\\Desktop\\programming\\laravel\\API\\todo\\vendor\\laravel\\framework\\src\\Illuminate\\Routing\\Route.php(260): Illuminate\\Routing\\ControllerDispatcher->dispatch(Object(Illuminate\\Routing\\Route), Object(App\\Http\\Controllers\\TodoController), 'index')
+#14 C:\\Users\\AliAmini\\Desktop\\programming\\laravel\\API\\todo\\vendor\\laravel\\framework\\src\\Illuminate\\Routing\\Route.php(205): Illuminate\\Routing\\Route->runController()
+#15 C:\\Users\\AliAmini\\Desktop\\programming\\laravel\\API\\todo\\vendor\\laravel\\framework\\src\\Illuminate\\Routing\\Router.php(727): Illuminate\\Routing\\Route->run()
+#16 C:\\Users\\AliAmini\\Desktop\\programming\\laravel\\API\\todo\\vendor\\laravel\\framework\\src\\Illuminate\\Pipeline\\Pipeline.php(141): Illuminate\\Routing\\Router->Illuminate\\Routing\\{closure}(Object(Illuminate\\Http\\Request))
+#17 C:\\Users\\AliAmini\\Desktop\\programming\\laravel\\API\\todo\\vendor\\laravel\\framework\\src\\Illuminate\\Routing\\Middleware\\SubstituteBindings.php(50): Illuminate\\Pipeline\\Pipeline->Illuminate\\Pipeline\\{closure}(Object(Illuminate\\Http\\Request))
+#18 C:\\Users\\AliAmini\\Desktop\\programming\\laravel\\API\\todo\\vendor\\laravel\\framework\\src\\Illuminate\\Pipeline\\Pipeline.php(180): Illuminate\\Routing\\Middleware\\SubstituteBindings->handle(Object(Illuminate\\Http\\Request), Object(Closure))
+#19 C:\\Users\\AliAmini\\Desktop\\programming\\laravel\\API\\todo\\vendor\\laravel\\framework\\src\\Illuminate\\Routing\\Middleware\\ThrottleRequests.php(126): Illuminate\\Pipeline\\Pipeline->Illuminate\\Pipeline\\{closure}(Object(Illuminate\\Http\\Request))
+#20 C:\\Users\\AliAmini\\Desktop\\programming\\laravel\\API\\todo\\vendor\\laravel\\framework\\src\\Illuminate\\Routing\\Middleware\\ThrottleRequests.php(102): Illuminate\\Routing\\Middleware\\ThrottleRequests->handleRequest(Object(Illuminate\\Http\\Request), Object(Closure), Array)
+#21 C:\\Users\\AliAmini\\Desktop\\programming\\laravel\\API\\todo\\vendor\\laravel\\framework\\src\\Illuminate\\Routing\\Middleware\\ThrottleRequests.php(54): Illuminate\\Routing\\Middleware\\ThrottleRequests->handleRequestUsingNamedLimiter(Object(Illuminate\\Http\\Request), Object(Closure), 'api', Object(Closure))
+#22 C:\\Users\\AliAmini\\Desktop\\programming\\laravel\\API\\todo\\vendor\\laravel\\framework\\src\\Illuminate\\Pipeline\\Pipeline.php(180): Illuminate\\Routing\\Middleware\\ThrottleRequests->handle(Object(Illuminate\\Http\\Request), Object(Closure), 'api')
+#23 C:\\Users\\AliAmini\\Desktop\\programming\\laravel\\API\\todo\\vendor\\laravel\\framework\\src\\Illuminate\\Pipeline\\Pipeline.php(116): Illuminate\\Pipeline\\Pipeline->Illuminate\\Pipeline\\{closure}(Object(Illuminate\\Http\\Request))
+#24 C:\\Users\\AliAmini\\Desktop\\programming\\laravel\\API\\todo\\vendor\\laravel\\framework\\src\\Illuminate\\Routing\\Router.php(728): Illuminate\\Pipeline\\Pipeline->then(Object(Closure))
+#25 C:\\Users\\AliAmini\\Desktop\\programming\\laravel\\API\\todo\\vendor\\laravel\\framework\\src\\Illuminate\\Routing\\Router.php(705): Illuminate\\Routing\\Router->runRouteWithinStack(Object(Illuminate\\Routing\\Route), Object(Illuminate\\Http\\Request))
+#26 C:\\Users\\AliAmini\\Desktop\\programming\\laravel\\API\\todo\\vendor\\laravel\\framework\\src\\Illuminate\\Routing\\Router.php(669): Illuminate\\Routing\\Router->runRoute(Object(Illuminate\\Http\\Request), Object(Illuminate\\Routing\\Route))
+#27 C:\\Users\\AliAmini\\Desktop\\programming\\laravel\\API\\todo\\vendor\\laravel\\framework\\src\\Illuminate\\Routing\\Router.php(658): Illuminate\\Routing\\Router->dispatchToRoute(Object(Illuminate\\Http\\Request))
+#28 C:\\Users\\AliAmini\\Desktop\\programming\\laravel\\API\\todo\\vendor\\laravel\\framework\\src\\Illuminate\\Foundation\\Http\\Kernel.php(190): Illuminate\\Routing\\Router->dispatch(Object(Illuminate\\Http\\Request))
+#29 C:\\Users\\AliAmini\\Desktop\\programming\\laravel\\API\\todo\\vendor\\laravel\\framework\\src\\Illuminate\\Pipeline\\Pipeline.php(141): Illuminate\\Foundation\\Http\\Kernel->Illuminate\\Foundation\\Http\\{closure}(Object(Illuminate\\Http\\Request))
+#30 C:\\Users\\AliAmini\\Desktop\\programming\\laravel\\API\\todo\\vendor\\laravel\\framework\\src\\Illuminate\\Foundation\\Http\\Middleware\\TransformsRequest.php(21): Illuminate\\Pipeline\\Pipeline->Illuminate\\Pipeline\\{closure}(Object(Illuminate\\Http\\Request))
+#31 C:\\Users\\AliAmini\\Desktop\\programming\\laravel\\API\\todo\\vendor\\laravel\\framework\\src\\Illuminate\\Foundation\\Http\\Middleware\\ConvertEmptyStringsToNull.php(31): Illuminate\\Foundation\\Http\\Middleware\\TransformsRequest->handle(Object(Illuminate\\Http\\Request), Object(Closure))
+#32 C:\\Users\\AliAmini\\Desktop\\programming\\laravel\\API\\todo\\vendor\\laravel\\framework\\src\\Illuminate\\Pipeline\\Pipeline.php(180): Illuminate\\Foundation\\Http\\Middleware\\ConvertEmptyStringsToNull->handle(Object(Illuminate\\Http\\Request), Object(Closure))
+#33 C:\\Users\\AliAmini\\Desktop\\programming\\laravel\\API\\todo\\vendor\\laravel\\framework\\src\\Illuminate\\Foundation\\Http\\Middleware\\TransformsRequest.php(21): Illuminate\\Pipeline\\Pipeline->Illuminate\\Pipeline\\{closure}(Object(Illuminate\\Http\\Request))
+#34 C:\\Users\\AliAmini\\Desktop\\programming\\laravel\\API\\todo\\vendor\\laravel\\framework\\src\\Illuminate\\Foundation\\Http\\Middleware\\TrimStrings.php(40): Illuminate\\Foundation\\Http\\Middleware\\TransformsRequest->handle(Object(Illuminate\\Http\\Request), Object(Closure))
+#35 C:\\Users\\AliAmini\\Desktop\\programming\\laravel\\API\\todo\\vendor\\laravel\\framework\\src\\Illuminate\\Pipeline\\Pipeline.php(180): Illuminate\\Foundation\\Http\\Middleware\\TrimStrings->handle(Object(Illuminate\\Http\\Request), Object(Closure))
+#36 C:\\Users\\AliAmini\\Desktop\\programming\\laravel\\API\\todo\\vendor\\laravel\\framework\\src\\Illuminate\\Foundation\\Http\\Middleware\\ValidatePostSize.php(27): Illuminate\\Pipeline\\Pipeline->Illuminate\\Pipeline\\{closure}(Object(Illuminate\\Http\\Request))
+#37 C:\\Users\\AliAmini\\Desktop\\programming\\laravel\\API\\todo\\vendor\\laravel\\framework\\src\\Illuminate\\Pipeline\\Pipeline.php(180): Illuminate\\Foundation\\Http\\Middleware\\ValidatePostSize->handle(Object(Illuminate\\Http\\Request), Object(Closure))
+#38 C:\\Users\\AliAmini\\Desktop\\programming\\laravel\\API\\todo\\vendor\\laravel\\framework\\src\\Illuminate\\Foundation\\Http\\Middleware\\PreventRequestsDuringMaintenance.php(86): Illuminate\\Pipeline\\Pipeline->Illuminate\\Pipeline\\{closure}(Object(Illuminate\\Http\\Request))
+#39 C:\\Users\\AliAmini\\Desktop\\programming\\laravel\\API\\todo\\vendor\\laravel\\framework\\src\\Illuminate\\Pipeline\\Pipeline.php(180): Illuminate\\Foundation\\Http\\Middleware\\PreventRequestsDuringMaintenance->handle(Object(Illuminate\\Http\\Request), Object(Closure))
+#40 C:\\Users\\AliAmini\\Desktop\\programming\\laravel\\API\\todo\\vendor\\laravel\\framework\\src\\Illuminate\\Http\\Middleware\\HandleCors.php(62): Illuminate\\Pipeline\\Pipeline->Illuminate\\Pipeline\\{closure}(Object(Illuminate\\Http\\Request))
+#41 C:\\Users\\AliAmini\\Desktop\\programming\\laravel\\API\\todo\\vendor\\laravel\\framework\\src\\Illuminate\\Pipeline\\Pipeline.php(180): Illuminate\\Http\\Middleware\\HandleCors->handle(Object(Illuminate\\Http\\Request), Object(Closure))
+#42 C:\\Users\\AliAmini\\Desktop\\programming\\laravel\\API\\todo\\vendor\\laravel\\framework\\src\\Illuminate\\Http\\Middleware\\TrustProxies.php(39): Illuminate\\Pipeline\\Pipeline->Illuminate\\Pipeline\\{closure}(Object(Illuminate\\Http\\Request))
+#43 C:\\Users\\AliAmini\\Desktop\\programming\\laravel\\API\\todo\\vendor\\laravel\\framework\\src\\Illuminate\\Pipeline\\Pipeline.php(180): Illuminate\\Http\\Middleware\\TrustProxies->handle(Object(Illuminate\\Http\\Request), Object(Closure))
+#44 C:\\Users\\AliAmini\\Desktop\\programming\\laravel\\API\\todo\\vendor\\laravel\\framework\\src\\Illuminate\\Pipeline\\Pipeline.php(116): Illuminate\\Pipeline\\Pipeline->Illuminate\\Pipeline\\{closure}(Object(Illuminate\\Http\\Request))
+#45 C:\\Users\\AliAmini\\Desktop\\programming\\laravel\\API\\todo\\vendor\\laravel\\framework\\src\\Illuminate\\Foundation\\Http\\Kernel.php(165): Illuminate\\Pipeline\\Pipeline->then(Object(Closure))
+#46 C:\\Users\\AliAmini\\Desktop\\programming\\laravel\\API\\todo\\vendor\\laravel\\framework\\src\\Illuminate\\Foundation\\Http\\Kernel.php(134): Illuminate\\Foundation\\Http\\Kernel->sendRequestThroughRouter(Object(Illuminate\\Http\\Request))
+#47 C:\\Users\\AliAmini\\Desktop\\programming\\laravel\\API\\todo\\public\\index.php(52): Illuminate\\Foundation\\Http\\Kernel->handle(Object(Illuminate\\Http\\Request))
+#48 C:\\Users\\AliAmini\\Desktop\\programming\\laravel\\API\\todo\\vendor\\laravel\\framework\\src\\Illuminate\\Foundation\\resources\\server.php(16): require_once('C:\\\\Users\\\\AliAmi...')
+#49 {main}
+"} 
+[2022-11-13 11:43:14] local.ERROR: SQLSTATE[42000]: Syntax error or access violation: 1064 You have an error in your SQL syntax; check the manual that corresponds to your MariaDB server version for the right syntax to use near 'select count(*) from todos from `todos`' at line 1 (SQL: select select count(*) from todos from `todos`) {"exception":"[object] (Illuminate\\Database\\QueryException(code: 42000): SQLSTATE[42000]: Syntax error or access violation: 1064 You have an error in your SQL syntax; check the manual that corresponds to your MariaDB server version for the right syntax to use near 'select count(*) from todos from `todos`' at line 1 (SQL: select select count(*) from todos from `todos`) at C:\\Users\\AliAmini\\Desktop\\programming\\laravel\\API\\todo\\vendor\\laravel\\framework\\src\\Illuminate\\Database\\Connection.php:760)
+[stacktrace]
+#0 C:\\Users\\AliAmini\\Desktop\\programming\\laravel\\API\\todo\\vendor\\laravel\\framework\\src\\Illuminate\\Database\\Connection.php(720): Illuminate\\Database\\Connection->runQueryCallback('select select c...', Array, Object(Closure))
+#1 C:\\Users\\AliAmini\\Desktop\\programming\\laravel\\API\\todo\\vendor\\laravel\\framework\\src\\Illuminate\\Database\\Connection.php(422): Illuminate\\Database\\Connection->run('select select c...', Array, Object(Closure))
+#2 C:\\Users\\AliAmini\\Desktop\\programming\\laravel\\API\\todo\\vendor\\laravel\\framework\\src\\Illuminate\\Database\\Query\\Builder.php(2650): Illuminate\\Database\\Connection->select('select select c...', Array, true)
+#3 C:\\Users\\AliAmini\\Desktop\\programming\\laravel\\API\\todo\\vendor\\laravel\\framework\\src\\Illuminate\\Database\\Query\\Builder.php(2638): Illuminate\\Database\\Query\\Builder->runSelect()
+#4 C:\\Users\\AliAmini\\Desktop\\programming\\laravel\\API\\todo\\vendor\\laravel\\framework\\src\\Illuminate\\Database\\Query\\Builder.php(3174): Illuminate\\Database\\Query\\Builder->Illuminate\\Database\\Query\\{closure}()
+#5 C:\\Users\\AliAmini\\Desktop\\programming\\laravel\\API\\todo\\vendor\\laravel\\framework\\src\\Illuminate\\Database\\Query\\Builder.php(2639): Illuminate\\Database\\Query\\Builder->onceWithColumns(Array, Object(Closure))
+#6 C:\\Users\\AliAmini\\Desktop\\programming\\laravel\\API\\todo\\vendor\\laravel\\framework\\src\\Illuminate\\Database\\Eloquent\\Builder.php(702): Illuminate\\Database\\Query\\Builder->get(Array)
+#7 C:\\Users\\AliAmini\\Desktop\\programming\\laravel\\API\\todo\\vendor\\laravel\\framework\\src\\Illuminate\\Database\\Eloquent\\Builder.php(686): Illuminate\\Database\\Eloquent\\Builder->getModels(Array)
+#8 C:\\Users\\AliAmini\\Desktop\\programming\\laravel\\API\\todo\\app\\Http\\Controllers\\TodoController.php(25): Illuminate\\Database\\Eloquent\\Builder->get()
+#9 C:\\Users\\AliAmini\\Desktop\\programming\\laravel\\API\\todo\\vendor\\laravel\\framework\\src\\Illuminate\\Routing\\Controller.php(54): App\\Http\\Controllers\\TodoController->index()
+#10 C:\\Users\\AliAmini\\Desktop\\programming\\laravel\\API\\todo\\vendor\\laravel\\framework\\src\\Illuminate\\Routing\\ControllerDispatcher.php(43): Illuminate\\Routing\\Controller->callAction('index', Array)
+#11 C:\\Users\\AliAmini\\Desktop\\programming\\laravel\\API\\todo\\vendor\\laravel\\framework\\src\\Illuminate\\Routing\\Route.php(260): Illuminate\\Routing\\ControllerDispatcher->dispatch(Object(Illuminate\\Routing\\Route), Object(App\\Http\\Controllers\\TodoController), 'index')
+#12 C:\\Users\\AliAmini\\Desktop\\programming\\laravel\\API\\todo\\vendor\\laravel\\framework\\src\\Illuminate\\Routing\\Route.php(205): Illuminate\\Routing\\Route->runController()
+#13 C:\\Users\\AliAmini\\Desktop\\programming\\laravel\\API\\todo\\vendor\\laravel\\framework\\src\\Illuminate\\Routing\\Router.php(727): Illuminate\\Routing\\Route->run()
+#14 C:\\Users\\AliAmini\\Desktop\\programming\\laravel\\API\\todo\\vendor\\laravel\\framework\\src\\Illuminate\\Pipeline\\Pipeline.php(141): Illuminate\\Routing\\Router->Illuminate\\Routing\\{closure}(Object(Illuminate\\Http\\Request))
+#15 C:\\Users\\AliAmini\\Desktop\\programming\\laravel\\API\\todo\\vendor\\laravel\\framework\\src\\Illuminate\\Routing\\Middleware\\SubstituteBindings.php(50): Illuminate\\Pipeline\\Pipeline->Illuminate\\Pipeline\\{closure}(Object(Illuminate\\Http\\Request))
+#16 C:\\Users\\AliAmini\\Desktop\\programming\\laravel\\API\\todo\\vendor\\laravel\\framework\\src\\Illuminate\\Pipeline\\Pipeline.php(180): Illuminate\\Routing\\Middleware\\SubstituteBindings->handle(Object(Illuminate\\Http\\Request), Object(Closure))
+#17 C:\\Users\\AliAmini\\Desktop\\programming\\laravel\\API\\todo\\vendor\\laravel\\framework\\src\\Illuminate\\Routing\\Middleware\\ThrottleRequests.php(126): Illuminate\\Pipeline\\Pipeline->Illuminate\\Pipeline\\{closure}(Object(Illuminate\\Http\\Request))
+#18 C:\\Users\\AliAmini\\Desktop\\programming\\laravel\\API\\todo\\vendor\\laravel\\framework\\src\\Illuminate\\Routing\\Middleware\\ThrottleRequests.php(102): Illuminate\\Routing\\Middleware\\ThrottleRequests->handleRequest(Object(Illuminate\\Http\\Request), Object(Closure), Array)
+#19 C:\\Users\\AliAmini\\Desktop\\programming\\laravel\\API\\todo\\vendor\\laravel\\framework\\src\\Illuminate\\Routing\\Middleware\\ThrottleRequests.php(54): Illuminate\\Routing\\Middleware\\ThrottleRequests->handleRequestUsingNamedLimiter(Object(Illuminate\\Http\\Request), Object(Closure), 'api', Object(Closure))
+#20 C:\\Users\\AliAmini\\Desktop\\programming\\laravel\\API\\todo\\vendor\\laravel\\framework\\src\\Illuminate\\Pipeline\\Pipeline.php(180): Illuminate\\Routing\\Middleware\\ThrottleRequests->handle(Object(Illuminate\\Http\\Request), Object(Closure), 'api')
+#21 C:\\Users\\AliAmini\\Desktop\\programming\\laravel\\API\\todo\\vendor\\laravel\\framework\\src\\Illuminate\\Pipeline\\Pipeline.php(116): Illuminate\\Pipeline\\Pipeline->Illuminate\\Pipeline\\{closure}(Object(Illuminate\\Http\\Request))
+#22 C:\\Users\\AliAmini\\Desktop\\programming\\laravel\\API\\todo\\vendor\\laravel\\framework\\src\\Illuminate\\Routing\\Router.php(728): Illuminate\\Pipeline\\Pipeline->then(Object(Closure))
+#23 C:\\Users\\AliAmini\\Desktop\\programming\\laravel\\API\\todo\\vendor\\laravel\\framework\\src\\Illuminate\\Routing\\Router.php(705): Illuminate\\Routing\\Router->runRouteWithinStack(Object(Illuminate\\Routing\\Route), Object(Illuminate\\Http\\Request))
+#24 C:\\Users\\AliAmini\\Desktop\\programming\\laravel\\API\\todo\\vendor\\laravel\\framework\\src\\Illuminate\\Routing\\Router.php(669): Illuminate\\Routing\\Router->runRoute(Object(Illuminate\\Http\\Request), Object(Illuminate\\Routing\\Route))
+#25 C:\\Users\\AliAmini\\Desktop\\programming\\laravel\\API\\todo\\vendor\\laravel\\framework\\src\\Illuminate\\Routing\\Router.php(658): Illuminate\\Routing\\Router->dispatchToRoute(Object(Illuminate\\Http\\Request))
+#26 C:\\Users\\AliAmini\\Desktop\\programming\\laravel\\API\\todo\\vendor\\laravel\\framework\\src\\Illuminate\\Foundation\\Http\\Kernel.php(190): Illuminate\\Routing\\Router->dispatch(Object(Illuminate\\Http\\Request))
+#27 C:\\Users\\AliAmini\\Desktop\\programming\\laravel\\API\\todo\\vendor\\laravel\\framework\\src\\Illuminate\\Pipeline\\Pipeline.php(141): Illuminate\\Foundation\\Http\\Kernel->Illuminate\\Foundation\\Http\\{closure}(Object(Illuminate\\Http\\Request))
+#28 C:\\Users\\AliAmini\\Desktop\\programming\\laravel\\API\\todo\\vendor\\laravel\\framework\\src\\Illuminate\\Foundation\\Http\\Middleware\\TransformsRequest.php(21): Illuminate\\Pipeline\\Pipeline->Illuminate\\Pipeline\\{closure}(Object(Illuminate\\Http\\Request))
+#29 C:\\Users\\AliAmini\\Desktop\\programming\\laravel\\API\\todo\\vendor\\laravel\\framework\\src\\Illuminate\\Foundation\\Http\\Middleware\\ConvertEmptyStringsToNull.php(31): Illuminate\\Foundation\\Http\\Middleware\\TransformsRequest->handle(Object(Illuminate\\Http\\Request), Object(Closure))
+#30 C:\\Users\\AliAmini\\Desktop\\programming\\laravel\\API\\todo\\vendor\\laravel\\framework\\src\\Illuminate\\Pipeline\\Pipeline.php(180): Illuminate\\Foundation\\Http\\Middleware\\ConvertEmptyStringsToNull->handle(Object(Illuminate\\Http\\Request), Object(Closure))
+#31 C:\\Users\\AliAmini\\Desktop\\programming\\laravel\\API\\todo\\vendor\\laravel\\framework\\src\\Illuminate\\Foundation\\Http\\Middleware\\TransformsRequest.php(21): Illuminate\\Pipeline\\Pipeline->Illuminate\\Pipeline\\{closure}(Object(Illuminate\\Http\\Request))
+#32 C:\\Users\\AliAmini\\Desktop\\programming\\laravel\\API\\todo\\vendor\\laravel\\framework\\src\\Illuminate\\Foundation\\Http\\Middleware\\TrimStrings.php(40): Illuminate\\Foundation\\Http\\Middleware\\TransformsRequest->handle(Object(Illuminate\\Http\\Request), Object(Closure))
+#33 C:\\Users\\AliAmini\\Desktop\\programming\\laravel\\API\\todo\\vendor\\laravel\\framework\\src\\Illuminate\\Pipeline\\Pipeline.php(180): Illuminate\\Foundation\\Http\\Middleware\\TrimStrings->handle(Object(Illuminate\\Http\\Request), Object(Closure))
+#34 C:\\Users\\AliAmini\\Desktop\\programming\\laravel\\API\\todo\\vendor\\laravel\\framework\\src\\Illuminate\\Foundation\\Http\\Middleware\\ValidatePostSize.php(27): Illuminate\\Pipeline\\Pipeline->Illuminate\\Pipeline\\{closure}(Object(Illuminate\\Http\\Request))
+#35 C:\\Users\\AliAmini\\Desktop\\programming\\laravel\\API\\todo\\vendor\\laravel\\framework\\src\\Illuminate\\Pipeline\\Pipeline.php(180): Illuminate\\Foundation\\Http\\Middleware\\ValidatePostSize->handle(Object(Illuminate\\Http\\Request), Object(Closure))
+#36 C:\\Users\\AliAmini\\Desktop\\programming\\laravel\\API\\todo\\vendor\\laravel\\framework\\src\\Illuminate\\Foundation\\Http\\Middleware\\PreventRequestsDuringMaintenance.php(86): Illuminate\\Pipeline\\Pipeline->Illuminate\\Pipeline\\{closure}(Object(Illuminate\\Http\\Request))
+#37 C:\\Users\\AliAmini\\Desktop\\programming\\laravel\\API\\todo\\vendor\\laravel\\framework\\src\\Illuminate\\Pipeline\\Pipeline.php(180): Illuminate\\Foundation\\Http\\Middleware\\PreventRequestsDuringMaintenance->handle(Object(Illuminate\\Http\\Request), Object(Closure))
+#38 C:\\Users\\AliAmini\\Desktop\\programming\\laravel\\API\\todo\\vendor\\laravel\\framework\\src\\Illuminate\\Http\\Middleware\\HandleCors.php(62): Illuminate\\Pipeline\\Pipeline->Illuminate\\Pipeline\\{closure}(Object(Illuminate\\Http\\Request))
+#39 C:\\Users\\AliAmini\\Desktop\\programming\\laravel\\API\\todo\\vendor\\laravel\\framework\\src\\Illuminate\\Pipeline\\Pipeline.php(180): Illuminate\\Http\\Middleware\\HandleCors->handle(Object(Illuminate\\Http\\Request), Object(Closure))
+#40 C:\\Users\\AliAmini\\Desktop\\programming\\laravel\\API\\todo\\vendor\\laravel\\framework\\src\\Illuminate\\Http\\Middleware\\TrustProxies.php(39): Illuminate\\Pipeline\\Pipeline->Illuminate\\Pipeline\\{closure}(Object(Illuminate\\Http\\Request))
+#41 C:\\Users\\AliAmini\\Desktop\\programming\\laravel\\API\\todo\\vendor\\laravel\\framework\\src\\Illuminate\\Pipeline\\Pipeline.php(180): Illuminate\\Http\\Middleware\\TrustProxies->handle(Object(Illuminate\\Http\\Request), Object(Closure))
+#42 C:\\Users\\AliAmini\\Desktop\\programming\\laravel\\API\\todo\\vendor\\laravel\\framework\\src\\Illuminate\\Pipeline\\Pipeline.php(116): Illuminate\\Pipeline\\Pipeline->Illuminate\\Pipeline\\{closure}(Object(Illuminate\\Http\\Request))
+#43 C:\\Users\\AliAmini\\Desktop\\programming\\laravel\\API\\todo\\vendor\\laravel\\framework\\src\\Illuminate\\Foundation\\Http\\Kernel.php(165): Illuminate\\Pipeline\\Pipeline->then(Object(Closure))
+#44 C:\\Users\\AliAmini\\Desktop\\programming\\laravel\\API\\todo\\vendor\\laravel\\framework\\src\\Illuminate\\Foundation\\Http\\Kernel.php(134): Illuminate\\Foundation\\Http\\Kernel->sendRequestThroughRouter(Object(Illuminate\\Http\\Request))
+#45 C:\\Users\\AliAmini\\Desktop\\programming\\laravel\\API\\todo\\public\\index.php(52): Illuminate\\Foundation\\Http\\Kernel->handle(Object(Illuminate\\Http\\Request))
+#46 C:\\Users\\AliAmini\\Desktop\\programming\\laravel\\API\\todo\\vendor\\laravel\\framework\\src\\Illuminate\\Foundation\\resources\\server.php(16): require_once('C:\\\\Users\\\\AliAmi...')
+#47 {main}
+
+[previous exception] [object] (PDOException(code: 42000): SQLSTATE[42000]: Syntax error or access violation: 1064 You have an error in your SQL syntax; check the manual that corresponds to your MariaDB server version for the right syntax to use near 'select count(*) from todos from `todos`' at line 1 at C:\\Users\\AliAmini\\Desktop\\programming\\laravel\\API\\todo\\vendor\\laravel\\framework\\src\\Illuminate\\Database\\Connection.php:414)
+[stacktrace]
+#0 C:\\Users\\AliAmini\\Desktop\\programming\\laravel\\API\\todo\\vendor\\laravel\\framework\\src\\Illuminate\\Database\\Connection.php(414): PDO->prepare('select select c...')
+#1 C:\\Users\\AliAmini\\Desktop\\programming\\laravel\\API\\todo\\vendor\\laravel\\framework\\src\\Illuminate\\Database\\Connection.php(753): Illuminate\\Database\\Connection->Illuminate\\Database\\{closure}('select select c...', Array)
+#2 C:\\Users\\AliAmini\\Desktop\\programming\\laravel\\API\\todo\\vendor\\laravel\\framework\\src\\Illuminate\\Database\\Connection.php(720): Illuminate\\Database\\Connection->runQueryCallback('select select c...', Array, Object(Closure))
+#3 C:\\Users\\AliAmini\\Desktop\\programming\\laravel\\API\\todo\\vendor\\laravel\\framework\\src\\Illuminate\\Database\\Connection.php(422): Illuminate\\Database\\Connection->run('select select c...', Array, Object(Closure))
+#4 C:\\Users\\AliAmini\\Desktop\\programming\\laravel\\API\\todo\\vendor\\laravel\\framework\\src\\Illuminate\\Database\\Query\\Builder.php(2650): Illuminate\\Database\\Connection->select('select select c...', Array, true)
+#5 C:\\Users\\AliAmini\\Desktop\\programming\\laravel\\API\\todo\\vendor\\laravel\\framework\\src\\Illuminate\\Database\\Query\\Builder.php(2638): Illuminate\\Database\\Query\\Builder->runSelect()
+#6 C:\\Users\\AliAmini\\Desktop\\programming\\laravel\\API\\todo\\vendor\\laravel\\framework\\src\\Illuminate\\Database\\Query\\Builder.php(3174): Illuminate\\Database\\Query\\Builder->Illuminate\\Database\\Query\\{closure}()
+#7 C:\\Users\\AliAmini\\Desktop\\programming\\laravel\\API\\todo\\vendor\\laravel\\framework\\src\\Illuminate\\Database\\Query\\Builder.php(2639): Illuminate\\Database\\Query\\Builder->onceWithColumns(Array, Object(Closure))
+#8 C:\\Users\\AliAmini\\Desktop\\programming\\laravel\\API\\todo\\vendor\\laravel\\framework\\src\\Illuminate\\Database\\Eloquent\\Builder.php(702): Illuminate\\Database\\Query\\Builder->get(Array)
+#9 C:\\Users\\AliAmini\\Desktop\\programming\\laravel\\API\\todo\\vendor\\laravel\\framework\\src\\Illuminate\\Database\\Eloquent\\Builder.php(686): Illuminate\\Database\\Eloquent\\Builder->getModels(Array)
+#10 C:\\Users\\AliAmini\\Desktop\\programming\\laravel\\API\\todo\\app\\Http\\Controllers\\TodoController.php(25): Illuminate\\Database\\Eloquent\\Builder->get()
+#11 C:\\Users\\AliAmini\\Desktop\\programming\\laravel\\API\\todo\\vendor\\laravel\\framework\\src\\Illuminate\\Routing\\Controller.php(54): App\\Http\\Controllers\\TodoController->index()
+#12 C:\\Users\\AliAmini\\Desktop\\programming\\laravel\\API\\todo\\vendor\\laravel\\framework\\src\\Illuminate\\Routing\\ControllerDispatcher.php(43): Illuminate\\Routing\\Controller->callAction('index', Array)
+#13 C:\\Users\\AliAmini\\Desktop\\programming\\laravel\\API\\todo\\vendor\\laravel\\framework\\src\\Illuminate\\Routing\\Route.php(260): Illuminate\\Routing\\ControllerDispatcher->dispatch(Object(Illuminate\\Routing\\Route), Object(App\\Http\\Controllers\\TodoController), 'index')
+#14 C:\\Users\\AliAmini\\Desktop\\programming\\laravel\\API\\todo\\vendor\\laravel\\framework\\src\\Illuminate\\Routing\\Route.php(205): Illuminate\\Routing\\Route->runController()
+#15 C:\\Users\\AliAmini\\Desktop\\programming\\laravel\\API\\todo\\vendor\\laravel\\framework\\src\\Illuminate\\Routing\\Router.php(727): Illuminate\\Routing\\Route->run()
+#16 C:\\Users\\AliAmini\\Desktop\\programming\\laravel\\API\\todo\\vendor\\laravel\\framework\\src\\Illuminate\\Pipeline\\Pipeline.php(141): Illuminate\\Routing\\Router->Illuminate\\Routing\\{closure}(Object(Illuminate\\Http\\Request))
+#17 C:\\Users\\AliAmini\\Desktop\\programming\\laravel\\API\\todo\\vendor\\laravel\\framework\\src\\Illuminate\\Routing\\Middleware\\SubstituteBindings.php(50): Illuminate\\Pipeline\\Pipeline->Illuminate\\Pipeline\\{closure}(Object(Illuminate\\Http\\Request))
+#18 C:\\Users\\AliAmini\\Desktop\\programming\\laravel\\API\\todo\\vendor\\laravel\\framework\\src\\Illuminate\\Pipeline\\Pipeline.php(180): Illuminate\\Routing\\Middleware\\SubstituteBindings->handle(Object(Illuminate\\Http\\Request), Object(Closure))
+#19 C:\\Users\\AliAmini\\Desktop\\programming\\laravel\\API\\todo\\vendor\\laravel\\framework\\src\\Illuminate\\Routing\\Middleware\\ThrottleRequests.php(126): Illuminate\\Pipeline\\Pipeline->Illuminate\\Pipeline\\{closure}(Object(Illuminate\\Http\\Request))
+#20 C:\\Users\\AliAmini\\Desktop\\programming\\laravel\\API\\todo\\vendor\\laravel\\framework\\src\\Illuminate\\Routing\\Middleware\\ThrottleRequests.php(102): Illuminate\\Routing\\Middleware\\ThrottleRequests->handleRequest(Object(Illuminate\\Http\\Request), Object(Closure), Array)
+#21 C:\\Users\\AliAmini\\Desktop\\programming\\laravel\\API\\todo\\vendor\\laravel\\framework\\src\\Illuminate\\Routing\\Middleware\\ThrottleRequests.php(54): Illuminate\\Routing\\Middleware\\ThrottleRequests->handleRequestUsingNamedLimiter(Object(Illuminate\\Http\\Request), Object(Closure), 'api', Object(Closure))
+#22 C:\\Users\\AliAmini\\Desktop\\programming\\laravel\\API\\todo\\vendor\\laravel\\framework\\src\\Illuminate\\Pipeline\\Pipeline.php(180): Illuminate\\Routing\\Middleware\\ThrottleRequests->handle(Object(Illuminate\\Http\\Request), Object(Closure), 'api')
+#23 C:\\Users\\AliAmini\\Desktop\\programming\\laravel\\API\\todo\\vendor\\laravel\\framework\\src\\Illuminate\\Pipeline\\Pipeline.php(116): Illuminate\\Pipeline\\Pipeline->Illuminate\\Pipeline\\{closure}(Object(Illuminate\\Http\\Request))
+#24 C:\\Users\\AliAmini\\Desktop\\programming\\laravel\\API\\todo\\vendor\\laravel\\framework\\src\\Illuminate\\Routing\\Router.php(728): Illuminate\\Pipeline\\Pipeline->then(Object(Closure))
+#25 C:\\Users\\AliAmini\\Desktop\\programming\\laravel\\API\\todo\\vendor\\laravel\\framework\\src\\Illuminate\\Routing\\Router.php(705): Illuminate\\Routing\\Router->runRouteWithinStack(Object(Illuminate\\Routing\\Route), Object(Illuminate\\Http\\Request))
+#26 C:\\Users\\AliAmini\\Desktop\\programming\\laravel\\API\\todo\\vendor\\laravel\\framework\\src\\Illuminate\\Routing\\Router.php(669): Illuminate\\Routing\\Router->runRoute(Object(Illuminate\\Http\\Request), Object(Illuminate\\Routing\\Route))
+#27 C:\\Users\\AliAmini\\Desktop\\programming\\laravel\\API\\todo\\vendor\\laravel\\framework\\src\\Illuminate\\Routing\\Router.php(658): Illuminate\\Routing\\Router->dispatchToRoute(Object(Illuminate\\Http\\Request))
+#28 C:\\Users\\AliAmini\\Desktop\\programming\\laravel\\API\\todo\\vendor\\laravel\\framework\\src\\Illuminate\\Foundation\\Http\\Kernel.php(190): Illuminate\\Routing\\Router->dispatch(Object(Illuminate\\Http\\Request))
+#29 C:\\Users\\AliAmini\\Desktop\\programming\\laravel\\API\\todo\\vendor\\laravel\\framework\\src\\Illuminate\\Pipeline\\Pipeline.php(141): Illuminate\\Foundation\\Http\\Kernel->Illuminate\\Foundation\\Http\\{closure}(Object(Illuminate\\Http\\Request))
+#30 C:\\Users\\AliAmini\\Desktop\\programming\\laravel\\API\\todo\\vendor\\laravel\\framework\\src\\Illuminate\\Foundation\\Http\\Middleware\\TransformsRequest.php(21): Illuminate\\Pipeline\\Pipeline->Illuminate\\Pipeline\\{closure}(Object(Illuminate\\Http\\Request))
+#31 C:\\Users\\AliAmini\\Desktop\\programming\\laravel\\API\\todo\\vendor\\laravel\\framework\\src\\Illuminate\\Foundation\\Http\\Middleware\\ConvertEmptyStringsToNull.php(31): Illuminate\\Foundation\\Http\\Middleware\\TransformsRequest->handle(Object(Illuminate\\Http\\Request), Object(Closure))
+#32 C:\\Users\\AliAmini\\Desktop\\programming\\laravel\\API\\todo\\vendor\\laravel\\framework\\src\\Illuminate\\Pipeline\\Pipeline.php(180): Illuminate\\Foundation\\Http\\Middleware\\ConvertEmptyStringsToNull->handle(Object(Illuminate\\Http\\Request), Object(Closure))
+#33 C:\\Users\\AliAmini\\Desktop\\programming\\laravel\\API\\todo\\vendor\\laravel\\framework\\src\\Illuminate\\Foundation\\Http\\Middleware\\TransformsRequest.php(21): Illuminate\\Pipeline\\Pipeline->Illuminate\\Pipeline\\{closure}(Object(Illuminate\\Http\\Request))
+#34 C:\\Users\\AliAmini\\Desktop\\programming\\laravel\\API\\todo\\vendor\\laravel\\framework\\src\\Illuminate\\Foundation\\Http\\Middleware\\TrimStrings.php(40): Illuminate\\Foundation\\Http\\Middleware\\TransformsRequest->handle(Object(Illuminate\\Http\\Request), Object(Closure))
+#35 C:\\Users\\AliAmini\\Desktop\\programming\\laravel\\API\\todo\\vendor\\laravel\\framework\\src\\Illuminate\\Pipeline\\Pipeline.php(180): Illuminate\\Foundation\\Http\\Middleware\\TrimStrings->handle(Object(Illuminate\\Http\\Request), Object(Closure))
+#36 C:\\Users\\AliAmini\\Desktop\\programming\\laravel\\API\\todo\\vendor\\laravel\\framework\\src\\Illuminate\\Foundation\\Http\\Middleware\\ValidatePostSize.php(27): Illuminate\\Pipeline\\Pipeline->Illuminate\\Pipeline\\{closure}(Object(Illuminate\\Http\\Request))
+#37 C:\\Users\\AliAmini\\Desktop\\programming\\laravel\\API\\todo\\vendor\\laravel\\framework\\src\\Illuminate\\Pipeline\\Pipeline.php(180): Illuminate\\Foundation\\Http\\Middleware\\ValidatePostSize->handle(Object(Illuminate\\Http\\Request), Object(Closure))
+#38 C:\\Users\\AliAmini\\Desktop\\programming\\laravel\\API\\todo\\vendor\\laravel\\framework\\src\\Illuminate\\Foundation\\Http\\Middleware\\PreventRequestsDuringMaintenance.php(86): Illuminate\\Pipeline\\Pipeline->Illuminate\\Pipeline\\{closure}(Object(Illuminate\\Http\\Request))
+#39 C:\\Users\\AliAmini\\Desktop\\programming\\laravel\\API\\todo\\vendor\\laravel\\framework\\src\\Illuminate\\Pipeline\\Pipeline.php(180): Illuminate\\Foundation\\Http\\Middleware\\PreventRequestsDuringMaintenance->handle(Object(Illuminate\\Http\\Request), Object(Closure))
+#40 C:\\Users\\AliAmini\\Desktop\\programming\\laravel\\API\\todo\\vendor\\laravel\\framework\\src\\Illuminate\\Http\\Middleware\\HandleCors.php(62): Illuminate\\Pipeline\\Pipeline->Illuminate\\Pipeline\\{closure}(Object(Illuminate\\Http\\Request))
+#41 C:\\Users\\AliAmini\\Desktop\\programming\\laravel\\API\\todo\\vendor\\laravel\\framework\\src\\Illuminate\\Pipeline\\Pipeline.php(180): Illuminate\\Http\\Middleware\\HandleCors->handle(Object(Illuminate\\Http\\Request), Object(Closure))
+#42 C:\\Users\\AliAmini\\Desktop\\programming\\laravel\\API\\todo\\vendor\\laravel\\framework\\src\\Illuminate\\Http\\Middleware\\TrustProxies.php(39): Illuminate\\Pipeline\\Pipeline->Illuminate\\Pipeline\\{closure}(Object(Illuminate\\Http\\Request))
+#43 C:\\Users\\AliAmini\\Desktop\\programming\\laravel\\API\\todo\\vendor\\laravel\\framework\\src\\Illuminate\\Pipeline\\Pipeline.php(180): Illuminate\\Http\\Middleware\\TrustProxies->handle(Object(Illuminate\\Http\\Request), Object(Closure))
+#44 C:\\Users\\AliAmini\\Desktop\\programming\\laravel\\API\\todo\\vendor\\laravel\\framework\\src\\Illuminate\\Pipeline\\Pipeline.php(116): Illuminate\\Pipeline\\Pipeline->Illuminate\\Pipeline\\{closure}(Object(Illuminate\\Http\\Request))
+#45 C:\\Users\\AliAmini\\Desktop\\programming\\laravel\\API\\todo\\vendor\\laravel\\framework\\src\\Illuminate\\Foundation\\Http\\Kernel.php(165): Illuminate\\Pipeline\\Pipeline->then(Object(Closure))
+#46 C:\\Users\\AliAmini\\Desktop\\programming\\laravel\\API\\todo\\vendor\\laravel\\framework\\src\\Illuminate\\Foundation\\Http\\Kernel.php(134): Illuminate\\Foundation\\Http\\Kernel->sendRequestThroughRouter(Object(Illuminate\\Http\\Request))
+#47 C:\\Users\\AliAmini\\Desktop\\programming\\laravel\\API\\todo\\public\\index.php(52): Illuminate\\Foundation\\Http\\Kernel->handle(Object(Illuminate\\Http\\Request))
+#48 C:\\Users\\AliAmini\\Desktop\\programming\\laravel\\API\\todo\\vendor\\laravel\\framework\\src\\Illuminate\\Foundation\\resources\\server.php(16): require_once('C:\\\\Users\\\\AliAmi...')
+#49 {main}
+"} 
+[2022-11-13 11:46:32] local.ERROR: SQLSTATE[42S22]: Column not found: 1054 Unknown column 'is_dont' in 'where clause' (SQL: select (select count(*) from todos where is_dont=1) as done_count from `todos`) {"exception":"[object] (Illuminate\\Database\\QueryException(code: 42S22): SQLSTATE[42S22]: Column not found: 1054 Unknown column 'is_dont' in 'where clause' (SQL: select (select count(*) from todos where is_dont=1) as done_count from `todos`) at C:\\Users\\AliAmini\\Desktop\\programming\\laravel\\API\\todo\\vendor\\laravel\\framework\\src\\Illuminate\\Database\\Connection.php:760)
+[stacktrace]
+#0 C:\\Users\\AliAmini\\Desktop\\programming\\laravel\\API\\todo\\vendor\\laravel\\framework\\src\\Illuminate\\Database\\Connection.php(720): Illuminate\\Database\\Connection->runQueryCallback('select (select ...', Array, Object(Closure))
+#1 C:\\Users\\AliAmini\\Desktop\\programming\\laravel\\API\\todo\\vendor\\laravel\\framework\\src\\Illuminate\\Database\\Connection.php(422): Illuminate\\Database\\Connection->run('select (select ...', Array, Object(Closure))
+#2 C:\\Users\\AliAmini\\Desktop\\programming\\laravel\\API\\todo\\vendor\\laravel\\framework\\src\\Illuminate\\Database\\Query\\Builder.php(2650): Illuminate\\Database\\Connection->select('select (select ...', Array, true)
+#3 C:\\Users\\AliAmini\\Desktop\\programming\\laravel\\API\\todo\\vendor\\laravel\\framework\\src\\Illuminate\\Database\\Query\\Builder.php(2638): Illuminate\\Database\\Query\\Builder->runSelect()
+#4 C:\\Users\\AliAmini\\Desktop\\programming\\laravel\\API\\todo\\vendor\\laravel\\framework\\src\\Illuminate\\Database\\Query\\Builder.php(3174): Illuminate\\Database\\Query\\Builder->Illuminate\\Database\\Query\\{closure}()
+#5 C:\\Users\\AliAmini\\Desktop\\programming\\laravel\\API\\todo\\vendor\\laravel\\framework\\src\\Illuminate\\Database\\Query\\Builder.php(2639): Illuminate\\Database\\Query\\Builder->onceWithColumns(Array, Object(Closure))
+#6 C:\\Users\\AliAmini\\Desktop\\programming\\laravel\\API\\todo\\vendor\\laravel\\framework\\src\\Illuminate\\Database\\Eloquent\\Builder.php(702): Illuminate\\Database\\Query\\Builder->get(Array)
+#7 C:\\Users\\AliAmini\\Desktop\\programming\\laravel\\API\\todo\\vendor\\laravel\\framework\\src\\Illuminate\\Database\\Eloquent\\Builder.php(686): Illuminate\\Database\\Eloquent\\Builder->getModels(Array)
+#8 C:\\Users\\AliAmini\\Desktop\\programming\\laravel\\API\\todo\\app\\Http\\Controllers\\TodoController.php(27): Illuminate\\Database\\Eloquent\\Builder->get()
+#9 C:\\Users\\AliAmini\\Desktop\\programming\\laravel\\API\\todo\\vendor\\laravel\\framework\\src\\Illuminate\\Routing\\Controller.php(54): App\\Http\\Controllers\\TodoController->index()
+#10 C:\\Users\\AliAmini\\Desktop\\programming\\laravel\\API\\todo\\vendor\\laravel\\framework\\src\\Illuminate\\Routing\\ControllerDispatcher.php(43): Illuminate\\Routing\\Controller->callAction('index', Array)
+#11 C:\\Users\\AliAmini\\Desktop\\programming\\laravel\\API\\todo\\vendor\\laravel\\framework\\src\\Illuminate\\Routing\\Route.php(260): Illuminate\\Routing\\ControllerDispatcher->dispatch(Object(Illuminate\\Routing\\Route), Object(App\\Http\\Controllers\\TodoController), 'index')
+#12 C:\\Users\\AliAmini\\Desktop\\programming\\laravel\\API\\todo\\vendor\\laravel\\framework\\src\\Illuminate\\Routing\\Route.php(205): Illuminate\\Routing\\Route->runController()
+#13 C:\\Users\\AliAmini\\Desktop\\programming\\laravel\\API\\todo\\vendor\\laravel\\framework\\src\\Illuminate\\Routing\\Router.php(727): Illuminate\\Routing\\Route->run()
+#14 C:\\Users\\AliAmini\\Desktop\\programming\\laravel\\API\\todo\\vendor\\laravel\\framework\\src\\Illuminate\\Pipeline\\Pipeline.php(141): Illuminate\\Routing\\Router->Illuminate\\Routing\\{closure}(Object(Illuminate\\Http\\Request))
+#15 C:\\Users\\AliAmini\\Desktop\\programming\\laravel\\API\\todo\\vendor\\laravel\\framework\\src\\Illuminate\\Routing\\Middleware\\SubstituteBindings.php(50): Illuminate\\Pipeline\\Pipeline->Illuminate\\Pipeline\\{closure}(Object(Illuminate\\Http\\Request))
+#16 C:\\Users\\AliAmini\\Desktop\\programming\\laravel\\API\\todo\\vendor\\laravel\\framework\\src\\Illuminate\\Pipeline\\Pipeline.php(180): Illuminate\\Routing\\Middleware\\SubstituteBindings->handle(Object(Illuminate\\Http\\Request), Object(Closure))
+#17 C:\\Users\\AliAmini\\Desktop\\programming\\laravel\\API\\todo\\vendor\\laravel\\framework\\src\\Illuminate\\Routing\\Middleware\\ThrottleRequests.php(126): Illuminate\\Pipeline\\Pipeline->Illuminate\\Pipeline\\{closure}(Object(Illuminate\\Http\\Request))
+#18 C:\\Users\\AliAmini\\Desktop\\programming\\laravel\\API\\todo\\vendor\\laravel\\framework\\src\\Illuminate\\Routing\\Middleware\\ThrottleRequests.php(102): Illuminate\\Routing\\Middleware\\ThrottleRequests->handleRequest(Object(Illuminate\\Http\\Request), Object(Closure), Array)
+#19 C:\\Users\\AliAmini\\Desktop\\programming\\laravel\\API\\todo\\vendor\\laravel\\framework\\src\\Illuminate\\Routing\\Middleware\\ThrottleRequests.php(54): Illuminate\\Routing\\Middleware\\ThrottleRequests->handleRequestUsingNamedLimiter(Object(Illuminate\\Http\\Request), Object(Closure), 'api', Object(Closure))
+#20 C:\\Users\\AliAmini\\Desktop\\programming\\laravel\\API\\todo\\vendor\\laravel\\framework\\src\\Illuminate\\Pipeline\\Pipeline.php(180): Illuminate\\Routing\\Middleware\\ThrottleRequests->handle(Object(Illuminate\\Http\\Request), Object(Closure), 'api')
+#21 C:\\Users\\AliAmini\\Desktop\\programming\\laravel\\API\\todo\\vendor\\laravel\\framework\\src\\Illuminate\\Pipeline\\Pipeline.php(116): Illuminate\\Pipeline\\Pipeline->Illuminate\\Pipeline\\{closure}(Object(Illuminate\\Http\\Request))
+#22 C:\\Users\\AliAmini\\Desktop\\programming\\laravel\\API\\todo\\vendor\\laravel\\framework\\src\\Illuminate\\Routing\\Router.php(728): Illuminate\\Pipeline\\Pipeline->then(Object(Closure))
+#23 C:\\Users\\AliAmini\\Desktop\\programming\\laravel\\API\\todo\\vendor\\laravel\\framework\\src\\Illuminate\\Routing\\Router.php(705): Illuminate\\Routing\\Router->runRouteWithinStack(Object(Illuminate\\Routing\\Route), Object(Illuminate\\Http\\Request))
+#24 C:\\Users\\AliAmini\\Desktop\\programming\\laravel\\API\\todo\\vendor\\laravel\\framework\\src\\Illuminate\\Routing\\Router.php(669): Illuminate\\Routing\\Router->runRoute(Object(Illuminate\\Http\\Request), Object(Illuminate\\Routing\\Route))
+#25 C:\\Users\\AliAmini\\Desktop\\programming\\laravel\\API\\todo\\vendor\\laravel\\framework\\src\\Illuminate\\Routing\\Router.php(658): Illuminate\\Routing\\Router->dispatchToRoute(Object(Illuminate\\Http\\Request))
+#26 C:\\Users\\AliAmini\\Desktop\\programming\\laravel\\API\\todo\\vendor\\laravel\\framework\\src\\Illuminate\\Foundation\\Http\\Kernel.php(190): Illuminate\\Routing\\Router->dispatch(Object(Illuminate\\Http\\Request))
+#27 C:\\Users\\AliAmini\\Desktop\\programming\\laravel\\API\\todo\\vendor\\laravel\\framework\\src\\Illuminate\\Pipeline\\Pipeline.php(141): Illuminate\\Foundation\\Http\\Kernel->Illuminate\\Foundation\\Http\\{closure}(Object(Illuminate\\Http\\Request))
+#28 C:\\Users\\AliAmini\\Desktop\\programming\\laravel\\API\\todo\\vendor\\laravel\\framework\\src\\Illuminate\\Foundation\\Http\\Middleware\\TransformsRequest.php(21): Illuminate\\Pipeline\\Pipeline->Illuminate\\Pipeline\\{closure}(Object(Illuminate\\Http\\Request))
+#29 C:\\Users\\AliAmini\\Desktop\\programming\\laravel\\API\\todo\\vendor\\laravel\\framework\\src\\Illuminate\\Foundation\\Http\\Middleware\\ConvertEmptyStringsToNull.php(31): Illuminate\\Foundation\\Http\\Middleware\\TransformsRequest->handle(Object(Illuminate\\Http\\Request), Object(Closure))
+#30 C:\\Users\\AliAmini\\Desktop\\programming\\laravel\\API\\todo\\vendor\\laravel\\framework\\src\\Illuminate\\Pipeline\\Pipeline.php(180): Illuminate\\Foundation\\Http\\Middleware\\ConvertEmptyStringsToNull->handle(Object(Illuminate\\Http\\Request), Object(Closure))
+#31 C:\\Users\\AliAmini\\Desktop\\programming\\laravel\\API\\todo\\vendor\\laravel\\framework\\src\\Illuminate\\Foundation\\Http\\Middleware\\TransformsRequest.php(21): Illuminate\\Pipeline\\Pipeline->Illuminate\\Pipeline\\{closure}(Object(Illuminate\\Http\\Request))
+#32 C:\\Users\\AliAmini\\Desktop\\programming\\laravel\\API\\todo\\vendor\\laravel\\framework\\src\\Illuminate\\Foundation\\Http\\Middleware\\TrimStrings.php(40): Illuminate\\Foundation\\Http\\Middleware\\TransformsRequest->handle(Object(Illuminate\\Http\\Request), Object(Closure))
+#33 C:\\Users\\AliAmini\\Desktop\\programming\\laravel\\API\\todo\\vendor\\laravel\\framework\\src\\Illuminate\\Pipeline\\Pipeline.php(180): Illuminate\\Foundation\\Http\\Middleware\\TrimStrings->handle(Object(Illuminate\\Http\\Request), Object(Closure))
+#34 C:\\Users\\AliAmini\\Desktop\\programming\\laravel\\API\\todo\\vendor\\laravel\\framework\\src\\Illuminate\\Foundation\\Http\\Middleware\\ValidatePostSize.php(27): Illuminate\\Pipeline\\Pipeline->Illuminate\\Pipeline\\{closure}(Object(Illuminate\\Http\\Request))
+#35 C:\\Users\\AliAmini\\Desktop\\programming\\laravel\\API\\todo\\vendor\\laravel\\framework\\src\\Illuminate\\Pipeline\\Pipeline.php(180): Illuminate\\Foundation\\Http\\Middleware\\ValidatePostSize->handle(Object(Illuminate\\Http\\Request), Object(Closure))
+#36 C:\\Users\\AliAmini\\Desktop\\programming\\laravel\\API\\todo\\vendor\\laravel\\framework\\src\\Illuminate\\Foundation\\Http\\Middleware\\PreventRequestsDuringMaintenance.php(86): Illuminate\\Pipeline\\Pipeline->Illuminate\\Pipeline\\{closure}(Object(Illuminate\\Http\\Request))
+#37 C:\\Users\\AliAmini\\Desktop\\programming\\laravel\\API\\todo\\vendor\\laravel\\framework\\src\\Illuminate\\Pipeline\\Pipeline.php(180): Illuminate\\Foundation\\Http\\Middleware\\PreventRequestsDuringMaintenance->handle(Object(Illuminate\\Http\\Request), Object(Closure))
+#38 C:\\Users\\AliAmini\\Desktop\\programming\\laravel\\API\\todo\\vendor\\laravel\\framework\\src\\Illuminate\\Http\\Middleware\\HandleCors.php(62): Illuminate\\Pipeline\\Pipeline->Illuminate\\Pipeline\\{closure}(Object(Illuminate\\Http\\Request))
+#39 C:\\Users\\AliAmini\\Desktop\\programming\\laravel\\API\\todo\\vendor\\laravel\\framework\\src\\Illuminate\\Pipeline\\Pipeline.php(180): Illuminate\\Http\\Middleware\\HandleCors->handle(Object(Illuminate\\Http\\Request), Object(Closure))
+#40 C:\\Users\\AliAmini\\Desktop\\programming\\laravel\\API\\todo\\vendor\\laravel\\framework\\src\\Illuminate\\Http\\Middleware\\TrustProxies.php(39): Illuminate\\Pipeline\\Pipeline->Illuminate\\Pipeline\\{closure}(Object(Illuminate\\Http\\Request))
+#41 C:\\Users\\AliAmini\\Desktop\\programming\\laravel\\API\\todo\\vendor\\laravel\\framework\\src\\Illuminate\\Pipeline\\Pipeline.php(180): Illuminate\\Http\\Middleware\\TrustProxies->handle(Object(Illuminate\\Http\\Request), Object(Closure))
+#42 C:\\Users\\AliAmini\\Desktop\\programming\\laravel\\API\\todo\\vendor\\laravel\\framework\\src\\Illuminate\\Pipeline\\Pipeline.php(116): Illuminate\\Pipeline\\Pipeline->Illuminate\\Pipeline\\{closure}(Object(Illuminate\\Http\\Request))
+#43 C:\\Users\\AliAmini\\Desktop\\programming\\laravel\\API\\todo\\vendor\\laravel\\framework\\src\\Illuminate\\Foundation\\Http\\Kernel.php(165): Illuminate\\Pipeline\\Pipeline->then(Object(Closure))
+#44 C:\\Users\\AliAmini\\Desktop\\programming\\laravel\\API\\todo\\vendor\\laravel\\framework\\src\\Illuminate\\Foundation\\Http\\Kernel.php(134): Illuminate\\Foundation\\Http\\Kernel->sendRequestThroughRouter(Object(Illuminate\\Http\\Request))
+#45 C:\\Users\\AliAmini\\Desktop\\programming\\laravel\\API\\todo\\public\\index.php(52): Illuminate\\Foundation\\Http\\Kernel->handle(Object(Illuminate\\Http\\Request))
+#46 C:\\Users\\AliAmini\\Desktop\\programming\\laravel\\API\\todo\\vendor\\laravel\\framework\\src\\Illuminate\\Foundation\\resources\\server.php(16): require_once('C:\\\\Users\\\\AliAmi...')
+#47 {main}
+
+[previous exception] [object] (PDOException(code: 42S22): SQLSTATE[42S22]: Column not found: 1054 Unknown column 'is_dont' in 'where clause' at C:\\Users\\AliAmini\\Desktop\\programming\\laravel\\API\\todo\\vendor\\laravel\\framework\\src\\Illuminate\\Database\\Connection.php:414)
+[stacktrace]
+#0 C:\\Users\\AliAmini\\Desktop\\programming\\laravel\\API\\todo\\vendor\\laravel\\framework\\src\\Illuminate\\Database\\Connection.php(414): PDO->prepare('select (select ...')
+#1 C:\\Users\\AliAmini\\Desktop\\programming\\laravel\\API\\todo\\vendor\\laravel\\framework\\src\\Illuminate\\Database\\Connection.php(753): Illuminate\\Database\\Connection->Illuminate\\Database\\{closure}('select (select ...', Array)
+#2 C:\\Users\\AliAmini\\Desktop\\programming\\laravel\\API\\todo\\vendor\\laravel\\framework\\src\\Illuminate\\Database\\Connection.php(720): Illuminate\\Database\\Connection->runQueryCallback('select (select ...', Array, Object(Closure))
+#3 C:\\Users\\AliAmini\\Desktop\\programming\\laravel\\API\\todo\\vendor\\laravel\\framework\\src\\Illuminate\\Database\\Connection.php(422): Illuminate\\Database\\Connection->run('select (select ...', Array, Object(Closure))
+#4 C:\\Users\\AliAmini\\Desktop\\programming\\laravel\\API\\todo\\vendor\\laravel\\framework\\src\\Illuminate\\Database\\Query\\Builder.php(2650): Illuminate\\Database\\Connection->select('select (select ...', Array, true)
+#5 C:\\Users\\AliAmini\\Desktop\\programming\\laravel\\API\\todo\\vendor\\laravel\\framework\\src\\Illuminate\\Database\\Query\\Builder.php(2638): Illuminate\\Database\\Query\\Builder->runSelect()
+#6 C:\\Users\\AliAmini\\Desktop\\programming\\laravel\\API\\todo\\vendor\\laravel\\framework\\src\\Illuminate\\Database\\Query\\Builder.php(3174): Illuminate\\Database\\Query\\Builder->Illuminate\\Database\\Query\\{closure}()
+#7 C:\\Users\\AliAmini\\Desktop\\programming\\laravel\\API\\todo\\vendor\\laravel\\framework\\src\\Illuminate\\Database\\Query\\Builder.php(2639): Illuminate\\Database\\Query\\Builder->onceWithColumns(Array, Object(Closure))
+#8 C:\\Users\\AliAmini\\Desktop\\programming\\laravel\\API\\todo\\vendor\\laravel\\framework\\src\\Illuminate\\Database\\Eloquent\\Builder.php(702): Illuminate\\Database\\Query\\Builder->get(Array)
+#9 C:\\Users\\AliAmini\\Desktop\\programming\\laravel\\API\\todo\\vendor\\laravel\\framework\\src\\Illuminate\\Database\\Eloquent\\Builder.php(686): Illuminate\\Database\\Eloquent\\Builder->getModels(Array)
+#10 C:\\Users\\AliAmini\\Desktop\\programming\\laravel\\API\\todo\\app\\Http\\Controllers\\TodoController.php(27): Illuminate\\Database\\Eloquent\\Builder->get()
+#11 C:\\Users\\AliAmini\\Desktop\\programming\\laravel\\API\\todo\\vendor\\laravel\\framework\\src\\Illuminate\\Routing\\Controller.php(54): App\\Http\\Controllers\\TodoController->index()
+#12 C:\\Users\\AliAmini\\Desktop\\programming\\laravel\\API\\todo\\vendor\\laravel\\framework\\src\\Illuminate\\Routing\\ControllerDispatcher.php(43): Illuminate\\Routing\\Controller->callAction('index', Array)
+#13 C:\\Users\\AliAmini\\Desktop\\programming\\laravel\\API\\todo\\vendor\\laravel\\framework\\src\\Illuminate\\Routing\\Route.php(260): Illuminate\\Routing\\ControllerDispatcher->dispatch(Object(Illuminate\\Routing\\Route), Object(App\\Http\\Controllers\\TodoController), 'index')
+#14 C:\\Users\\AliAmini\\Desktop\\programming\\laravel\\API\\todo\\vendor\\laravel\\framework\\src\\Illuminate\\Routing\\Route.php(205): Illuminate\\Routing\\Route->runController()
+#15 C:\\Users\\AliAmini\\Desktop\\programming\\laravel\\API\\todo\\vendor\\laravel\\framework\\src\\Illuminate\\Routing\\Router.php(727): Illuminate\\Routing\\Route->run()
+#16 C:\\Users\\AliAmini\\Desktop\\programming\\laravel\\API\\todo\\vendor\\laravel\\framework\\src\\Illuminate\\Pipeline\\Pipeline.php(141): Illuminate\\Routing\\Router->Illuminate\\Routing\\{closure}(Object(Illuminate\\Http\\Request))
+#17 C:\\Users\\AliAmini\\Desktop\\programming\\laravel\\API\\todo\\vendor\\laravel\\framework\\src\\Illuminate\\Routing\\Middleware\\SubstituteBindings.php(50): Illuminate\\Pipeline\\Pipeline->Illuminate\\Pipeline\\{closure}(Object(Illuminate\\Http\\Request))
+#18 C:\\Users\\AliAmini\\Desktop\\programming\\laravel\\API\\todo\\vendor\\laravel\\framework\\src\\Illuminate\\Pipeline\\Pipeline.php(180): Illuminate\\Routing\\Middleware\\SubstituteBindings->handle(Object(Illuminate\\Http\\Request), Object(Closure))
+#19 C:\\Users\\AliAmini\\Desktop\\programming\\laravel\\API\\todo\\vendor\\laravel\\framework\\src\\Illuminate\\Routing\\Middleware\\ThrottleRequests.php(126): Illuminate\\Pipeline\\Pipeline->Illuminate\\Pipeline\\{closure}(Object(Illuminate\\Http\\Request))
+#20 C:\\Users\\AliAmini\\Desktop\\programming\\laravel\\API\\todo\\vendor\\laravel\\framework\\src\\Illuminate\\Routing\\Middleware\\ThrottleRequests.php(102): Illuminate\\Routing\\Middleware\\ThrottleRequests->handleRequest(Object(Illuminate\\Http\\Request), Object(Closure), Array)
+#21 C:\\Users\\AliAmini\\Desktop\\programming\\laravel\\API\\todo\\vendor\\laravel\\framework\\src\\Illuminate\\Routing\\Middleware\\ThrottleRequests.php(54): Illuminate\\Routing\\Middleware\\ThrottleRequests->handleRequestUsingNamedLimiter(Object(Illuminate\\Http\\Request), Object(Closure), 'api', Object(Closure))
+#22 C:\\Users\\AliAmini\\Desktop\\programming\\laravel\\API\\todo\\vendor\\laravel\\framework\\src\\Illuminate\\Pipeline\\Pipeline.php(180): Illuminate\\Routing\\Middleware\\ThrottleRequests->handle(Object(Illuminate\\Http\\Request), Object(Closure), 'api')
+#23 C:\\Users\\AliAmini\\Desktop\\programming\\laravel\\API\\todo\\vendor\\laravel\\framework\\src\\Illuminate\\Pipeline\\Pipeline.php(116): Illuminate\\Pipeline\\Pipeline->Illuminate\\Pipeline\\{closure}(Object(Illuminate\\Http\\Request))
+#24 C:\\Users\\AliAmini\\Desktop\\programming\\laravel\\API\\todo\\vendor\\laravel\\framework\\src\\Illuminate\\Routing\\Router.php(728): Illuminate\\Pipeline\\Pipeline->then(Object(Closure))
+#25 C:\\Users\\AliAmini\\Desktop\\programming\\laravel\\API\\todo\\vendor\\laravel\\framework\\src\\Illuminate\\Routing\\Router.php(705): Illuminate\\Routing\\Router->runRouteWithinStack(Object(Illuminate\\Routing\\Route), Object(Illuminate\\Http\\Request))
+#26 C:\\Users\\AliAmini\\Desktop\\programming\\laravel\\API\\todo\\vendor\\laravel\\framework\\src\\Illuminate\\Routing\\Router.php(669): Illuminate\\Routing\\Router->runRoute(Object(Illuminate\\Http\\Request), Object(Illuminate\\Routing\\Route))
+#27 C:\\Users\\AliAmini\\Desktop\\programming\\laravel\\API\\todo\\vendor\\laravel\\framework\\src\\Illuminate\\Routing\\Router.php(658): Illuminate\\Routing\\Router->dispatchToRoute(Object(Illuminate\\Http\\Request))
+#28 C:\\Users\\AliAmini\\Desktop\\programming\\laravel\\API\\todo\\vendor\\laravel\\framework\\src\\Illuminate\\Foundation\\Http\\Kernel.php(190): Illuminate\\Routing\\Router->dispatch(Object(Illuminate\\Http\\Request))
+#29 C:\\Users\\AliAmini\\Desktop\\programming\\laravel\\API\\todo\\vendor\\laravel\\framework\\src\\Illuminate\\Pipeline\\Pipeline.php(141): Illuminate\\Foundation\\Http\\Kernel->Illuminate\\Foundation\\Http\\{closure}(Object(Illuminate\\Http\\Request))
+#30 C:\\Users\\AliAmini\\Desktop\\programming\\laravel\\API\\todo\\vendor\\laravel\\framework\\src\\Illuminate\\Foundation\\Http\\Middleware\\TransformsRequest.php(21): Illuminate\\Pipeline\\Pipeline->Illuminate\\Pipeline\\{closure}(Object(Illuminate\\Http\\Request))
+#31 C:\\Users\\AliAmini\\Desktop\\programming\\laravel\\API\\todo\\vendor\\laravel\\framework\\src\\Illuminate\\Foundation\\Http\\Middleware\\ConvertEmptyStringsToNull.php(31): Illuminate\\Foundation\\Http\\Middleware\\TransformsRequest->handle(Object(Illuminate\\Http\\Request), Object(Closure))
+#32 C:\\Users\\AliAmini\\Desktop\\programming\\laravel\\API\\todo\\vendor\\laravel\\framework\\src\\Illuminate\\Pipeline\\Pipeline.php(180): Illuminate\\Foundation\\Http\\Middleware\\ConvertEmptyStringsToNull->handle(Object(Illuminate\\Http\\Request), Object(Closure))
+#33 C:\\Users\\AliAmini\\Desktop\\programming\\laravel\\API\\todo\\vendor\\laravel\\framework\\src\\Illuminate\\Foundation\\Http\\Middleware\\TransformsRequest.php(21): Illuminate\\Pipeline\\Pipeline->Illuminate\\Pipeline\\{closure}(Object(Illuminate\\Http\\Request))
+#34 C:\\Users\\AliAmini\\Desktop\\programming\\laravel\\API\\todo\\vendor\\laravel\\framework\\src\\Illuminate\\Foundation\\Http\\Middleware\\TrimStrings.php(40): Illuminate\\Foundation\\Http\\Middleware\\TransformsRequest->handle(Object(Illuminate\\Http\\Request), Object(Closure))
+#35 C:\\Users\\AliAmini\\Desktop\\programming\\laravel\\API\\todo\\vendor\\laravel\\framework\\src\\Illuminate\\Pipeline\\Pipeline.php(180): Illuminate\\Foundation\\Http\\Middleware\\TrimStrings->handle(Object(Illuminate\\Http\\Request), Object(Closure))
+#36 C:\\Users\\AliAmini\\Desktop\\programming\\laravel\\API\\todo\\vendor\\laravel\\framework\\src\\Illuminate\\Foundation\\Http\\Middleware\\ValidatePostSize.php(27): Illuminate\\Pipeline\\Pipeline->Illuminate\\Pipeline\\{closure}(Object(Illuminate\\Http\\Request))
+#37 C:\\Users\\AliAmini\\Desktop\\programming\\laravel\\API\\todo\\vendor\\laravel\\framework\\src\\Illuminate\\Pipeline\\Pipeline.php(180): Illuminate\\Foundation\\Http\\Middleware\\ValidatePostSize->handle(Object(Illuminate\\Http\\Request), Object(Closure))
+#38 C:\\Users\\AliAmini\\Desktop\\programming\\laravel\\API\\todo\\vendor\\laravel\\framework\\src\\Illuminate\\Foundation\\Http\\Middleware\\PreventRequestsDuringMaintenance.php(86): Illuminate\\Pipeline\\Pipeline->Illuminate\\Pipeline\\{closure}(Object(Illuminate\\Http\\Request))
+#39 C:\\Users\\AliAmini\\Desktop\\programming\\laravel\\API\\todo\\vendor\\laravel\\framework\\src\\Illuminate\\Pipeline\\Pipeline.php(180): Illuminate\\Foundation\\Http\\Middleware\\PreventRequestsDuringMaintenance->handle(Object(Illuminate\\Http\\Request), Object(Closure))
+#40 C:\\Users\\AliAmini\\Desktop\\programming\\laravel\\API\\todo\\vendor\\laravel\\framework\\src\\Illuminate\\Http\\Middleware\\HandleCors.php(62): Illuminate\\Pipeline\\Pipeline->Illuminate\\Pipeline\\{closure}(Object(Illuminate\\Http\\Request))
+#41 C:\\Users\\AliAmini\\Desktop\\programming\\laravel\\API\\todo\\vendor\\laravel\\framework\\src\\Illuminate\\Pipeline\\Pipeline.php(180): Illuminate\\Http\\Middleware\\HandleCors->handle(Object(Illuminate\\Http\\Request), Object(Closure))
+#42 C:\\Users\\AliAmini\\Desktop\\programming\\laravel\\API\\todo\\vendor\\laravel\\framework\\src\\Illuminate\\Http\\Middleware\\TrustProxies.php(39): Illuminate\\Pipeline\\Pipeline->Illuminate\\Pipeline\\{closure}(Object(Illuminate\\Http\\Request))
+#43 C:\\Users\\AliAmini\\Desktop\\programming\\laravel\\API\\todo\\vendor\\laravel\\framework\\src\\Illuminate\\Pipeline\\Pipeline.php(180): Illuminate\\Http\\Middleware\\TrustProxies->handle(Object(Illuminate\\Http\\Request), Object(Closure))
+#44 C:\\Users\\AliAmini\\Desktop\\programming\\laravel\\API\\todo\\vendor\\laravel\\framework\\src\\Illuminate\\Pipeline\\Pipeline.php(116): Illuminate\\Pipeline\\Pipeline->Illuminate\\Pipeline\\{closure}(Object(Illuminate\\Http\\Request))
+#45 C:\\Users\\AliAmini\\Desktop\\programming\\laravel\\API\\todo\\vendor\\laravel\\framework\\src\\Illuminate\\Foundation\\Http\\Kernel.php(165): Illuminate\\Pipeline\\Pipeline->then(Object(Closure))
+#46 C:\\Users\\AliAmini\\Desktop\\programming\\laravel\\API\\todo\\vendor\\laravel\\framework\\src\\Illuminate\\Foundation\\Http\\Kernel.php(134): Illuminate\\Foundation\\Http\\Kernel->sendRequestThroughRouter(Object(Illuminate\\Http\\Request))
+#47 C:\\Users\\AliAmini\\Desktop\\programming\\laravel\\API\\todo\\public\\index.php(52): Illuminate\\Foundation\\Http\\Kernel->handle(Object(Illuminate\\Http\\Request))
+#48 C:\\Users\\AliAmini\\Desktop\\programming\\laravel\\API\\todo\\vendor\\laravel\\framework\\src\\Illuminate\\Foundation\\resources\\server.php(16): require_once('C:\\\\Users\\\\AliAmi...')
+#49 {main}
+"} 
